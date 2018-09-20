@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/005-mi.com/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/practice/005-mi.com/2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/000-yo/yo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice/000-test/yo.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,34 +28,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="51" />
-          <entry key="md" value="77" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="71" />
+          <entry key="md" value="79" />
           <entry key="mp4" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="51" />
+          <entry key="HTML" value="71" />
           <entry key="Hoi4 file" value="1" />
-          <entry key="Markdown" value="77" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Markdown" value="79" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="25" />
-          <entry key="html" value="943" />
-          <entry key="md" value="3376" />
+          <entry key="html" value="2671" />
+          <entry key="md" value="3401" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="943" />
+          <entry key="HTML" value="2671" />
           <entry key="Hoi4 file" value="13" />
-          <entry key="Markdown" value="3376" />
+          <entry key="Markdown" value="3401" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
@@ -64,10 +64,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/007-conver-all-to-html/douban.html">
+        <entry file="file://$PROJECT_DIR$/practice/014-xiaomi/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="160">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -92,7 +92,6 @@
         <option value="$PROJECT_DIR$/practice/001-html-douban-group/index3.md" />
         <option value="$PROJECT_DIR$/practice/001-html-douban-group/index4.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/tmp/tmp.md" />
         <option value="$PROJECT_DIR$/tmp/2018-09-16_001-html-douban-group.mp4" />
         <option value="$PROJECT_DIR$/tmp/001-html-douban-group.mp4" />
         <option value="$PROJECT_DIR$/practice/001-html-douban-group/001-html-douban-group.html" />
@@ -109,6 +108,23 @@
         <option value="$PROJECT_DIR$/practice/005-mi.com/mi.com.html" />
         <option value="$PROJECT_DIR$/practice/005-mi.com/2.md" />
         <option value="$PROJECT_DIR$/practice/007-conver-all-to-html/douban.html" />
+        <option value="$PROJECT_DIR$/practice/000-test/nav.html" />
+        <option value="$PROJECT_DIR$/practice/008-html-element/1.html" />
+        <option value="$PROJECT_DIR$/practice/008-html-element/2.html" />
+        <option value="$PROJECT_DIR$/practice/009-body-element/1.html" />
+        <option value="$PROJECT_DIR$/practice/009-body-element/2.html" />
+        <option value="$PROJECT_DIR$/practice/010-head-element/1.html" />
+        <option value="$PROJECT_DIR$/practice/010-head-element/2.html" />
+        <option value="$PROJECT_DIR$/practice/011-div-element/1.html" />
+        <option value="$PROJECT_DIR$/practice/011-div-element/2.html" />
+        <option value="$PROJECT_DIR$/practice/011-div-element/3.html" />
+        <option value="$PROJECT_DIR$/practice/011-div-element/4.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.md" />
+        <option value="$PROJECT_DIR$/practice/000-test/1.html" />
+        <option value="$PROJECT_DIR$/practice/012-douban/index.html" />
+        <option value="$PROJECT_DIR$/practice/012-douban/1.html" />
+        <option value="$PROJECT_DIR$/practice/013-lianjia/1.html" />
+        <option value="$PROJECT_DIR$/practice/014-xiaomi/1.html" />
       </list>
     </option>
   </component>
@@ -119,7 +135,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="260" />
     <option name="width" value="1024" />
     <option name="height" value="640" />
   </component>
@@ -200,7 +215,7 @@
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="007-conver-all-to-html" type="462c0819:PsiDirectoryNode" />
+              <item name="014-xiaomi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537271463757" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537437999863" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,10 +236,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice/011-div-element" />
+      <recent name="$PROJECT_DIR$/practice/010-head-element" />
+      <recent name="$PROJECT_DIR$/practice/009-body-element" />
       <recent name="$PROJECT_DIR$/practice/007-conver-all-to-html" />
       <recent name="$PROJECT_DIR$/practice/005-mi.com" />
-      <recent name="$PROJECT_DIR$/practice/006-conver-to-html" />
-      <recent name="$PROJECT_DIR$/practice/001-html-douban-group" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,18 +308,18 @@
       <workItem from="1537167021729" duration="32000" />
       <workItem from="1537167073328" duration="6331000" />
       <workItem from="1537253816094" duration="5827000" />
-      <workItem from="1537340923653" duration="1040000" />
+      <workItem from="1537340923653" duration="11465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28460000" />
+    <option name="totallyTimeSpent" value="38885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1024" height="640" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20410156" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.265625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -374,7 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tmp.md" />
     <entry file="file://$PROJECT_DIR$/tmp/001-html-douban-group.mp4" />
     <entry file="file://$PROJECT_DIR$/practice/001-html-douban-group/index4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -400,13 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="13398" column="11884" lean-forward="true" selection-start-line="13398" selection-start-column="11884" selection-end-line="13398" selection-end-column="11884" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -441,7 +449,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjia.com.html" />
-    <entry file="file://$PROJECT_DIR$/practice/000-yo/yo.txt">
+    <entry file="file://$PROJECT_DIR$/practice/000-test/yo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -526,10 +534,149 @@
     <entry file="file://$PROJECT_DIR$/practice/007-conver-all-to-html/xiaomi.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/000-test/nav-black-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice/007-conver-all-to-html/douban.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/008-html-element/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/008-html-element/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/009-body-element/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/009-body-element/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/010-head-element/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/010-head-element/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/011-div-element/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/011-div-element/4.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/011-div-element/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="40">
+            <caret line="1" column="9" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/000-test/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#2;n#!!top" />
+            <element signature="n#div#2;n#div#2;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#2;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/011-div-element/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/012-douban/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/013-lianjia/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/014-xiaomi/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
