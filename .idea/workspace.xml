@@ -14,48 +14,54 @@
     <session id="-812039980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="23" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="86" />
-          <entry key="md" value="81" />
+          <entry key="html" value="183" />
+          <entry key="md" value="149" />
           <entry key="mp4" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="86" />
+          <entry key="CSS" value="23" />
+          <entry key="HTML" value="183" />
           <entry key="Hoi4 file" value="1" />
-          <entry key="Markdown" value="81" />
+          <entry key="Markdown" value="149" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="112" />
           <entry key="gitignore" value="25" />
-          <entry key="html" value="6270" />
-          <entry key="md" value="3674" />
+          <entry key="html" value="11092" />
+          <entry key="md" value="5999" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="6270" />
+          <entry key="CSS" value="112" />
+          <entry key="HTML" value="11122" />
           <entry key="Hoi4 file" value="13" />
-          <entry key="Markdown" value="3674" />
+          <entry key="Markdown" value="5963" />
           <entry key="PLAIN_TEXT" value="25" />
+          <entry key="SQL" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -63,58 +69,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/018-xiaomi-complete/1.html">
+        <entry file="file://$PROJECT_DIR$/practice/027-float-grid/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#a#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-                <element signature="n#div#3;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#!!top" />
-                <element signature="n#a#0;n#div#0;n#div#3;n#!!top" />
-                <element signature="n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#1;n#div#3;n#!!top" />
-                <element signature="n#div#2;n#div#3;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#3;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#3;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#3;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#2;n#div#3;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#2;n#div#3;n#!!top" />
-                <element signature="n#div#3;n#div#3;n#!!top" />
-                <element signature="n#a#0;n#div#3;n#div#3;n#!!top" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -125,7 +83,16 @@
     <findStrings>
       <find>script</find>
       <find>&lt;script</find>
+      <find>`yo-css</find>
+      <find>`index.html`</find>
+      <find>&lt;[^&gt;]+&gt;</find>
+      <find>. `</find>
+      <find>``</find>
     </findStrings>
+    <replaceStrings>
+      <replace>index.html</replace>
+      <replace>`</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,28 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/001-html-douban-group/index3.md" />
-        <option value="$PROJECT_DIR$/practice/001-html-douban-group/index4.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/tmp/2018-09-16_001-html-douban-group.mp4" />
-        <option value="$PROJECT_DIR$/tmp/001-html-douban-group.mp4" />
-        <option value="$PROJECT_DIR$/practice/001-html-douban-group/001-html-douban-group.html" />
-        <option value="$PROJECT_DIR$/practice/002-html-douban-group-multiple-tag/1.md" />
-        <option value="$PROJECT_DIR$/practice/003-html-douban-group-row-column/1.md" />
-        <option value="$PROJECT_DIR$/practice/003-html-douban-group-row-column/2.md" />
-        <option value="$PROJECT_DIR$/practice/000-yo/yo.txt" />
-        <option value="$PROJECT_DIR$/practice/004-lianjia-structure/1.md" />
-        <option value="$PROJECT_DIR$/practice/004-lianjia-structure/2.md" />
-        <option value="$PROJECT_DIR$/practice/006-conver-to-html/tmp.md" />
-        <option value="$PROJECT_DIR$/practice/006-conver-to-html/1.md" />
-        <option value="$PROJECT_DIR$/practice/006-conver-to-html/1.html" />
-        <option value="$PROJECT_DIR$/practice/005-mi.com/1.md" />
-        <option value="$PROJECT_DIR$/practice/005-mi.com/mi.com.html" />
-        <option value="$PROJECT_DIR$/practice/005-mi.com/2.md" />
-        <option value="$PROJECT_DIR$/practice/007-conver-all-to-html/douban.html" />
-        <option value="$PROJECT_DIR$/practice/000-test/nav.html" />
-        <option value="$PROJECT_DIR$/practice/008-html-element/1.html" />
-        <option value="$PROJECT_DIR$/practice/008-html-element/2.html" />
         <option value="$PROJECT_DIR$/practice/009-body-element/1.html" />
         <option value="$PROJECT_DIR$/practice/009-body-element/2.html" />
         <option value="$PROJECT_DIR$/practice/010-head-element/1.html" />
@@ -168,7 +113,6 @@
         <option value="$PROJECT_DIR$/practice/012-douban/1.html" />
         <option value="$PROJECT_DIR$/practice/013-lianjia/1.html" />
         <option value="$PROJECT_DIR$/practice/014-xiaomi/1.html" />
-        <option value="$PROJECT_DIR$/tmp/tmp.md" />
         <option value="$PROJECT_DIR$/practice/015-functional-element/a.html" />
         <option value="$PROJECT_DIR$/practice/015-functional-element/h1-h6.html" />
         <option value="$PROJECT_DIR$/practice/015-functional-element/img.html" />
@@ -184,6 +128,29 @@
         <option value="$PROJECT_DIR$/practice/016-douban-complete/1.html" />
         <option value="$PROJECT_DIR$/practice/017-lianjia-complete/1.html" />
         <option value="$PROJECT_DIR$/practice/018-xiaomi-complete/1.html" />
+        <option value="$PROJECT_DIR$/practice/019-zhihu/1.html" />
+        <option value="$PROJECT_DIR$/practice/020-oneplus/1.html" />
+        <option value="$PROJECT_DIR$/practice/021-css-selector/1.html" />
+        <option value="$PROJECT_DIR$/practice/021-css-selector/oneplus-nav.html" />
+        <option value="$PROJECT_DIR$/tmp/css.link.1.html" />
+        <option value="$PROJECT_DIR$/tmp/css.link.1.pure-demo.html" />
+        <option value="$PROJECT_DIR$/tmp/2.html" />
+        <option value="$PROJECT_DIR$/practice/022-css-syntax/index.html" />
+        <option value="$PROJECT_DIR$/practice/022-css-syntax/2.2.css" />
+        <option value="$PROJECT_DIR$/practice/022-css-syntax/2.css" />
+        <option value="$PROJECT_DIR$/practice/022-css-syntax/2.html" />
+        <option value="$PROJECT_DIR$/practice/022-css-syntax/3.html" />
+        <option value="$PROJECT_DIR$/practice/023-frontend.8-1/import.css" />
+        <option value="$PROJECT_DIR$/practice/023-frontend.8-1/main.css" />
+        <option value="$PROJECT_DIR$/practice/023-frontend.8-1/index.html" />
+        <option value="$PROJECT_DIR$/practice/025-css-specificity/1.html" />
+        <option value="$PROJECT_DIR$/tmp/index.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.css" />
+        <option value="$USER_HOME$/Downloads/index1.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.md" />
+        <option value="$PROJECT_DIR$/tmp/tmp.html" />
+        <option value="$PROJECT_DIR$/practice/026-float/1.html" />
+        <option value="$PROJECT_DIR$/practice/027-float-grid/1.html" />
       </list>
     </option>
   </component>
@@ -257,6 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,38 +242,39 @@
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="018-xiaomi-complete" type="462c0819:PsiDirectoryNode" />
+              <item name="026-float" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="027-float-grid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537504871309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538043644707" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/practice" />
+      <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/practice/015-functional-element" />
       <recent name="$PROJECT_DIR$/practice/011-div-element" />
       <recent name="$PROJECT_DIR$/practice/010-head-element" />
-      <recent name="$PROJECT_DIR$/practice/009-body-element" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,18 +343,29 @@
       <workItem from="1537167073328" duration="6331000" />
       <workItem from="1537253816094" duration="5827000" />
       <workItem from="1537340923653" duration="15952000" />
-      <workItem from="1537513001153" duration="6758000" />
+      <workItem from="1537513001153" duration="7136000" />
+      <workItem from="1537583068370" duration="3000" />
+      <workItem from="1537772553806" duration="13233000" />
+      <workItem from="1537820383508" duration="2376000" />
+      <workItem from="1537861005885" duration="6474000" />
+      <workItem from="1537945571681" duration="2602000" />
+      <workItem from="1537950671729" duration="9342000" />
+      <workItem from="1538118258476" duration="27000" />
+      <workItem from="1538118313807" duration="6496000" />
+      <workItem from="1538129399326" duration="4097000" />
+      <workItem from="1538227568186" duration="56000" />
+      <workItem from="1538376417067" duration="2768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50130000" />
+    <option name="totallyTimeSpent" value="97982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1024" height="640" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.265625" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24511719" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,7 +373,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -432,167 +413,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/001-html-douban-group/index3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="178">
-            <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/001-html-douban-group/douban-group.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="13398" column="11884" lean-forward="true" selection-start-line="13398" selection-start-column="11884" selection-end-line="13398" selection-end-column="11884" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/003-html-douban-group-row-column/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="160">
-            <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/003-html-douban-group-row-column/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/002-html-douban-group-multiple-tag/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianjia.com.html" />
-    <entry file="file://$PROJECT_DIR$/practice/000-test/yo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/004-lianjia-structure/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="425">
-            <caret line="56" column="13" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/004-lianjia-structure/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="145">
-            <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/006-conver-to-html/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/005-mi.com/mi.com.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/005-mi.com/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/006-conver-to-html/tmp.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/006-conver-to-html/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="160">
-            <caret line="4" column="8" lean-forward="true" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/005-mi.com/2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="319">
-            <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/007-conver-all-to-html/lianjia.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/007-conver-all-to-html/xiaomi.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/000-test/nav-black-example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/007-conver-all-to-html/douban.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/008-html-element/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/008-html-element/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -684,22 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tmp.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/015-functional-element/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/015-functional-element/1.md" />
     <entry file="file://$PROJECT_DIR$/practice/015-functional-element/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -788,40 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,114 +600,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#!!top" />
-            <element signature="n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#5;n#div#1;n#!!top" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#!!top" />
-            <element signature="n#div#2;n#div#2;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/018-xiaomi-complete/1.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/019-zhihu/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="55" column="22" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/020-oneplus/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="118" lean-forward="true" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/021-css-selector/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/021-css-selector/oneplus-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/022-css-syntax/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/022-css-syntax/2.2.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#!!top" />
-            <element signature="n#a#0;n#div#1;n#div#1;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" />
-            <element signature="n#div#3;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#3;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#div#3;n#!!top" />
-            <element signature="n#div#2;n#div#3;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#3;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#3;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#3;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#div#3;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#2;n#div#3;n#!!top" />
-            <element signature="n#div#3;n#div#3;n#!!top" />
-            <element signature="n#a#0;n#div#3;n#div#3;n#!!top" />
-          </folding>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/022-css-syntax/2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/022-css-syntax/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/022-css-syntax/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/023-frontend.8-1/import.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/023-frontend.8-1/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/023-frontend.8-1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/024-frontend.8-1/main.css" />
+    <entry file="file://$PROJECT_DIR$/practice/025-css-specificity/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-end-line="10" selection-end-column="793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/index1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="76">
+            <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/026-float/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="14" lean-forward="true" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/027-float-grid/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
