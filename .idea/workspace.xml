@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="" />
+    <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,7 @@
         <counts>
           <entry key="css" value="23" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="193" />
+          <entry key="html" value="204" />
           <entry key="md" value="149" />
           <entry key="mp4" value="1" />
           <entry key="txt" value="1" />
@@ -37,7 +40,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="23" />
-          <entry key="HTML" value="193" />
+          <entry key="HTML" value="204" />
           <entry key="Hoi4 file" value="1" />
           <entry key="Markdown" value="149" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -47,7 +50,7 @@
         <counts>
           <entry key="css" value="112" />
           <entry key="gitignore" value="25" />
-          <entry key="html" value="11638" />
+          <entry key="html" value="12474" />
           <entry key="md" value="5999" />
           <entry key="txt" value="13" />
         </counts>
@@ -55,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="112" />
-          <entry key="HTML" value="11668" />
+          <entry key="HTML" value="12504" />
           <entry key="Hoi4 file" value="13" />
           <entry key="Markdown" value="5963" />
           <entry key="PLAIN_TEXT" value="25" />
@@ -67,10 +70,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html">
+        <entry file="file://$PROJECT_DIR$/practice/29-nested-row-col/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="261">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -98,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/011-div-element/4.html" />
         <option value="$PROJECT_DIR$/practice/000-test/1.html" />
         <option value="$PROJECT_DIR$/practice/012-douban/index.html" />
         <option value="$PROJECT_DIR$/practice/012-douban/1.html" />
@@ -141,14 +143,15 @@
         <option value="$PROJECT_DIR$/tmp/tmp.md" />
         <option value="$PROJECT_DIR$/practice/026-float/1.html" />
         <option value="$PROJECT_DIR$/practice/027-float-grid/1.html" />
-        <option value="$PROJECT_DIR$/tmp/tmp.html" />
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/1.html" />
-        <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html" />
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r4c.html" />
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r10c.html" />
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r8c.html" />
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/2r2c.html" />
+        <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html" />
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.html" />
+        <option value="$PROJECT_DIR$/practice/29-nested-row-col/1.html" />
       </list>
     </option>
   </component>
@@ -240,7 +243,12 @@
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="028-float-1-row-n-col" type="462c0819:PsiDirectoryNode" />
+              <item name="29-nested-row-col" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,18 +354,18 @@
       <workItem from="1538118313807" duration="6496000" />
       <workItem from="1538129399326" duration="4097000" />
       <workItem from="1538227568186" duration="56000" />
-      <workItem from="1538376417067" duration="4727000" />
+      <workItem from="1538376417067" duration="7860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99941000" />
+    <option name="totallyTimeSpent" value="103074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1024" height="640" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24511719" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24511719" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,13 +413,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/011-div-element/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/000-test/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -686,31 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tmp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/026-float/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/1r2c.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -735,17 +715,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/2r2c.html">
+    <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/1r2c.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="240">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/2r2c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="538">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/29-nested-row-col/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
