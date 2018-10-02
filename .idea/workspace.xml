@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/028-float-1-row-n-col/1r3c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/29-nested-row-col/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/29-nested-row-col/1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
         <counts>
           <entry key="css" value="23" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="204" />
+          <entry key="html" value="218" />
           <entry key="md" value="149" />
           <entry key="mp4" value="1" />
           <entry key="txt" value="1" />
@@ -40,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="23" />
-          <entry key="HTML" value="204" />
+          <entry key="HTML" value="218" />
           <entry key="Hoi4 file" value="1" />
           <entry key="Markdown" value="149" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -50,7 +49,7 @@
         <counts>
           <entry key="css" value="112" />
           <entry key="gitignore" value="25" />
-          <entry key="html" value="12474" />
+          <entry key="html" value="14031" />
           <entry key="md" value="5999" />
           <entry key="txt" value="13" />
         </counts>
@@ -58,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="112" />
-          <entry key="HTML" value="12504" />
+          <entry key="HTML" value="14061" />
           <entry key="Hoi4 file" value="13" />
           <entry key="Markdown" value="5963" />
           <entry key="PLAIN_TEXT" value="25" />
@@ -70,10 +69,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/29-nested-row-col/1.html">
+        <entry file="file://$PROJECT_DIR$/practice/032-float-grid-24/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="280">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -89,6 +88,7 @@
       <find>&lt;[^&gt;]+&gt;</find>
       <find>. `</find>
       <find>``</find>
+      <find>3</find>
     </findStrings>
     <replaceStrings>
       <replace>index.html</replace>
@@ -101,11 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/000-test/1.html" />
-        <option value="$PROJECT_DIR$/practice/012-douban/index.html" />
-        <option value="$PROJECT_DIR$/practice/012-douban/1.html" />
-        <option value="$PROJECT_DIR$/practice/013-lianjia/1.html" />
-        <option value="$PROJECT_DIR$/practice/014-xiaomi/1.html" />
         <option value="$PROJECT_DIR$/practice/015-functional-element/a.html" />
         <option value="$PROJECT_DIR$/practice/015-functional-element/h1-h6.html" />
         <option value="$PROJECT_DIR$/practice/015-functional-element/img.html" />
@@ -152,6 +147,11 @@
         <option value="$PROJECT_DIR$/practice/028-float-1-row-n-col/nr2c.html" />
         <option value="$PROJECT_DIR$/tmp/tmp.html" />
         <option value="$PROJECT_DIR$/practice/29-nested-row-col/1.html" />
+        <option value="$PROJECT_DIR$/practice/29-nested-row-col/2.html" />
+        <option value="$PROJECT_DIR$/practice/30-float-grid/1.html" />
+        <option value="$PROJECT_DIR$/practice/31-float-grid-12/1.html" />
+        <option value="$PROJECT_DIR$/practice/30-float-grid-10/1.html" />
+        <option value="$PROJECT_DIR$/practice/032-float-grid-24/1.html" />
       </list>
     </option>
   </component>
@@ -162,6 +162,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="width" value="1024" />
     <option name="height" value="640" />
   </component>
@@ -243,7 +244,7 @@
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="29-nested-row-col" type="462c0819:PsiDirectoryNode" />
+              <item name="032-float-grid-24" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538043644707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538476137727" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -267,11 +268,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice/29-nested-row-col" />
       <recent name="$PROJECT_DIR$/practice/028-float-1-row-n-col" />
       <recent name="$PROJECT_DIR$/practice" />
       <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/practice/015-functional-element" />
-      <recent name="$PROJECT_DIR$/practice/011-div-element" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/practice" />
@@ -354,15 +355,15 @@
       <workItem from="1538118313807" duration="6496000" />
       <workItem from="1538129399326" duration="4097000" />
       <workItem from="1538227568186" duration="56000" />
-      <workItem from="1538376417067" duration="7860000" />
+      <workItem from="1538376417067" duration="13288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103074000" />
+    <option name="totallyTimeSpent" value="108502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="640" extended-state="6" />
+    <frame x="1" y="0" width="1024" height="640" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24511719" />
@@ -413,34 +414,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/000-test/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/011-div-element/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/012-douban/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/013-lianjia/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/014-xiaomi/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -748,8 +721,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/29-nested-row-col/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="117">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/29-nested-row-col/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/30-float-grid-10/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/31-float-grid-12/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/032-float-grid-24/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
