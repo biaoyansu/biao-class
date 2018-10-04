@@ -1,0 +1,108 @@
+<style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    div {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row {
+        border: solid tomato;
+    }
+
+    .row:before,
+    .row:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .col {
+        float: left;
+        border: solid royalblue;
+    }
+
+    .col-1 {
+        width: 8.333333333333333%;
+    }
+
+    .col-2 {
+        width: 16.666666666666666%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.333333333333333%;
+    }
+
+    .col-5 {
+        width: 41.666666666666666%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.333333333333333%;
+    }
+
+    .col-8 {
+        width: 66.666666666666666%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.333333333333333%;
+    }
+
+    .col-11 {
+        width: 91.666666666666666%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+</style>
+
+<div class="row nav global">
+    <div class="col col-7">链接组</div>
+    <div class="col col-5">链接组</div>
+</div>
+<div class="row main">
+    <div class="title">标题</div>
+    <div class="row">
+        <div class="col col-7">
+            <div class="row activity">
+                <div class="col col-2">
+                    喜欢
+                </div>
+                <div class="col col-10">
+                    内容
+                </div>
+            </div>
+        </div>
+        <div class="col col-5">
+            <div class="title">标题</div>
+            <div>
+                <div class="row">
+                    <div class="col col-3">头像</div>
+                    <div class="col col-9">文字</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row footer">
+    <div class="col col-6"></div>
+</div>
