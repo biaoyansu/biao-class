@@ -1,0 +1,93 @@
+<style>
+    body {
+        font-family: sans-serif;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .row:before,
+    .row:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .col {
+        float: left;
+    }
+
+    .col-8 {
+        width: 33.333333333333333%;
+    }
+
+    .muted {
+        opacity: .5;
+    }
+
+    .deleted {
+        text-decoration: line-through;
+    }
+
+    .card {
+        background: #fff;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
+    .card .thumbnail {
+        position: relative;
+    }
+
+    .card .thumbnail .flag {
+        background: #b10;
+        color: #fff;
+        padding: 3px;
+        text-align: center;
+        font-size: 12px;
+        width: 64px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -32px;
+    }
+
+    .card .text {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card .text > * {
+        margin: 10px 0;
+    }
+
+    .card .title {
+        font-weight: bold;
+    }
+
+    .card .price .hot {
+        color: #ff6700;
+        font-weight: bold;
+    }
+</style>
+
+<div class="row">
+    <div class="col col-8">
+        <div class="card">
+            <div class="thumbnail">
+                <img src="http://dummyimage.com/500x500">
+                <span class="flag">减 200 元</span>
+            </div>
+            <div class="text">
+                <div class="title">小米8 青春版 4GB+64GB</div>
+                <div class="muted">潮流镜面渐变色，2400万自拍旗舰</div>
+                <div class="price">
+                    <span class="hot">1399元</span>
+                    <span class="muted deleted">1599元</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

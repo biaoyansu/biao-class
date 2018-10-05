@@ -1,0 +1,111 @@
+<style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #666;
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .row:before,
+    .row:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .col {
+        float: left;
+    }
+
+    .col-6 {
+        width: 25%;
+    }
+
+    .col-18 {
+        width: 75%;
+    }
+
+    .container {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav {
+        margin-top: 20px;
+        color: #fff;
+    }
+
+    .nav a {
+        display: inline-block;
+        color: inherit;
+        padding: .2em .4em;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .auth {
+        font-size: 70%;
+
+    }
+
+    #logo {
+        display: inline-block;
+        width: 90px;
+        height: 45px;
+        background-image: url(./lianjia-sprite-small.png);
+        background-position: -8px -12px;
+    }
+
+    .icon-location {
+        vertical-align: middle;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(./lianjia-sprite-small.png);
+        background-position: -182px -20px;
+    }
+
+    .location {
+        position: relative;
+        bottom: 15px;
+    }
+</style>
+
+<div class="row nav">
+    <div class="container">
+        <div class="col col-6">
+            <a href="#" id="logo"></a>
+            <span class="location">
+                <span class="icon-location"></span>
+                北京
+            </span>
+        </div>
+        <div class="col col-18 right">
+            <div class="auth">
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+            </div>
+            <div>
+                <a href="#">二手房</a>
+                <a href="#">新房</a>
+                <a href="#">租房</a>
+                <a href="#">海外</a>
+                <a href="#">小区</a>
+                <a href="#">经纪人</a>
+            </div>
+        </div>
+    </div>
+</div>

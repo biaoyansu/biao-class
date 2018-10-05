@@ -1,0 +1,100 @@
+<style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .row:before,
+    .row:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .col {
+        float: left;
+    }
+
+    .col-16 {
+        width: 66.666666666666666666%;
+    }
+
+    .col-8 {
+        width: 33.333333333333333333%;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .nav {
+        background: #444;
+        color: #ccc;
+    }
+
+    .nav a,
+    .nav-item {
+        display: inline-block;
+        color: inherit;
+        padding: .3em;
+    }
+
+    .nav .btn {
+        background: #666;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .nav a:after {
+        content: '';
+        display: inline-block;
+        width: 2px;
+        height: 1em;
+        background: #555;
+        position: relative;
+        top: .16em;
+        left: .4em;
+    }
+
+    .nav a:last-of-type:after {
+        display: none;
+    }
+
+    .container {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<div class="row nav">
+    <div class="container">
+        <div class="col col-16">
+            <a href="#">小米商城</a>
+            <a href="#">MIUI</a>
+            <a href="#">IoT</a>
+            <a href="#">云服务</a>
+            <a href="#">金融</a>
+            <a href="#">小米商城</a>
+            <a href="#">MIUI</a>
+            <a href="#">IoT</a>
+            <a href="#">云服务</a>
+            <a href="#">金融</a>
+        </div>
+        <div class="col col-8 right">
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+            <span class="btn nav-item" href="#">购物车</span>
+        </div>
+    </div>
+</div>

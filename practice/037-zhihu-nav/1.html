@@ -1,0 +1,116 @@
+<style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    form {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav {
+        background: #fff;
+        border: 1px solid #ddd;
+        /*margin: 10px;*/
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 1em;
+    }
+
+    nav form {
+        position: relative;
+        top: .4em;
+    }
+
+    nav input,
+    nav button {
+        vertical-align: top;
+        padding: 1em;
+    }
+
+    nav input {
+        width: 69%;
+    }
+
+    nav button {
+        width: 30%;
+        margin-left: 1%;
+    }
+
+    input, button {
+        border: 1px solid #ccc;
+        outline: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    input:focus {
+        border: 1px solid royalblue;
+    }
+
+    button.primary {
+        background: royalblue;
+        border-color: royalblue;
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .row:before,
+    .row:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .col {
+        float: left;
+    }
+
+    .col-16 {
+        width: 66.666666666666666666%;
+    }
+
+    .col-8 {
+        width: 33.333333333333333333%;
+    }
+
+    .container {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+</style>
+
+<nav class="row">
+    <div class="container">
+        <div class="col col-8">
+            <a href="#">ITEM</a>
+            <a href="#">ITEM</a>
+            <a href="#">ITEM</a>
+        </div>
+        <form class="col col-8">
+            <input type="text"><button class="primary">提问</button>
+        </form>
+        <div class="col col-8 right">
+            <a href="#">ITEM</a>
+            <a href="#">ITEM</a>
+        </div>
+    </div>
+</nav>
