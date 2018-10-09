@@ -1,0 +1,439 @@
+<style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body,
+    form {
+        margin: 0;
+    }
+
+    body {
+        font-family: sans-serif;
+        color: #444;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #259;
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    button,
+    input {
+        border: 1px solid rgba(0, 0, 0, .15);
+        padding: 5px 10px;
+        outline: 0;
+        color: #444;
+    }
+
+    button:focus,
+    input:focus {
+        border-color: #037b82;
+    }
+
+    .row:before,
+    .row:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .col {
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .col-24 {
+        width: 100%;
+    }
+
+    .col-23 {
+        width: 95.83333333333334%;
+    }
+
+    .col-22 {
+        width: 91.66666666666667%;
+    }
+
+    .col-21 {
+        width: 87.5%;
+    }
+
+    .col-20 {
+        width: 83.33333333333334%;
+    }
+
+    .col-19 {
+        width: 79.16666666666667%;
+    }
+
+    .col-18 {
+        width: 75%;
+    }
+
+    .col-17 {
+        width: 70.83333333333334%;
+    }
+
+    .col-16 {
+        width: 66.66666666666667%;
+    }
+
+    .col-15 {
+        width: 62.50000000000001%;
+    }
+
+    .col-14 {
+        width: 58.333333333333336%;
+    }
+
+    .col-13 {
+        width: 54.16666666666667%;
+    }
+
+    .col-12 {
+        width: 50%;
+    }
+
+    .col-11 {
+        width: 45.833333333333336%;
+    }
+
+    .col-10 {
+        width: 41.66666666666667%;
+    }
+
+    .col-9 {
+        width: 37.5%;
+    }
+
+    .col-8 {
+        width: 33.333333333333336%;
+    }
+
+    .col-7 {
+        width: 29.166666666666668%;
+    }
+
+    .col-6 {
+        width: 25%;
+    }
+
+    .col-5 {
+        width: 20.833333333333336%;
+    }
+
+    .col-4 {
+        width: 16.666666666666668%;
+    }
+
+    .col-3 {
+        width: 12.5%;
+    }
+
+    .col-2 {
+        width: 8.333333333333334%;
+    }
+
+    .col-1 {
+        width: 4.166666666666667%;
+    }
+
+    .container {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .nav.global {
+        background: #444;
+        color: #ccc;
+    }
+
+    .nav.global a {
+        padding: 5px;
+        display: inline-block;
+        color: inherit;
+    }
+
+    .nav.global a:hover {
+        color: #fff;
+    }
+
+    .nav.page {
+        background: #f0f6f3;
+    }
+
+    .nav.page .link-group a {
+        color: #037b82;
+        padding: 20px 10px;
+        display: inline-block;
+    }
+
+    .nav.page .link-group a:hover {
+        color: #065155;
+    }
+
+    .nav.page .search {
+        position: relative;
+        margin-top: 17px;
+    }
+
+    .nav.page .search input {
+        width: 100%;
+    }
+
+    .nav.page .search button {
+        background: transparent;
+        border: none;
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        color: #ccc;
+    }
+
+    .rec,
+    .activity {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    .activity .like {
+        display: inline-block;
+        padding: 5px 10px;
+        text-align: center;
+        background: #fae9da;
+        color: #ca6445;
+    }
+
+    .activity .title {
+
+    }
+
+    .activity .desc {
+        color: #aaa;
+        background: #f8f8f8;
+        padding: 10px;
+    }
+
+    .activity .info {
+        color: #888;
+    }
+
+    .activity .preview > * {
+        margin: 5px 0;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+</style>
+
+<div class="nav global">
+    <div class="row container">
+        <div class="col col-16">
+            <a href="#">豆瓣</a>
+            <a href="#">读书</a>
+            <a href="#">电影</a>
+            <a href="#">同城</a>
+            <a href="#">小组</a>
+            <a href="#">FM</a>
+            <a href="#">同城</a>
+            <a href="#">小组</a>
+        </div>
+        <div class="col col-8 text-right">
+            <a href="#">下载客户端</a>
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="row nav page">
+        <div class="container">
+            <a href="#" class="col col-4 logo">
+                <img style="margin-top: 20px; width: 120px;" src="http://public.biaoyansu.com/page/douban-group-logo.png">
+            </a>
+            <div class="col col-12 link-group">
+                <a href="#">文化</a>
+                <a href="#">行摄</a>
+                <a href="#">娱乐</a>
+                <a href="#">时尚</a>
+                <a href="#">生活</a>
+                <a href="#">科技</a>
+            </div>
+            <form class="col col-8 search text-right">
+                <input type="text">
+                <button type="submit">搜</button>
+            </form>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <h1 class="title">讨论精选</h1>
+            <div class="row">
+                <div class="col col-17">
+                    <div class="row activity">
+                        <div class="col col-3">
+                            <div class="like">
+                                <div>10</div>
+                                <div>喜欢</div>
+                            </div>
+                        </div>
+                        <div class="col col-21 preview">
+                            <a href="#" class="title">到目前为止，你觉得对你一生最重要的一年是哪一年？</a>
+                            <div class="desc">我的话，大概是2010年，离开家人到国外上学，开始跨国恋（当然最后失败了），现在回头看，那一年真的彻底改变了人生的方向 你们呢？
+                                送给大家一段我很喜欢的话：
+                                当你老了，回顾一生，就会发觉：什么时候出国读书、...
+                            </div>
+                            <div class="info">
+                                <span>来自生活组小组</span>
+                                <span>今天13:54</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row activity">
+                        <div class="col col-3">
+                            <div class="like">
+                                <div>10</div>
+                                <div>喜欢</div>
+                            </div>
+                        </div>
+                        <div class="col col-21 preview">
+                            <a href="#" class="title">到目前为止，你觉得对你一生最重要的一年是哪一年？</a>
+                            <div class="desc">我的话，大概是2010年，离开家人到国外上学，开始跨国恋（当然最后失败了），现在回头看，那一年真的彻底改变了人生的方向 你们呢？
+                                送给大家一段我很喜欢的话：
+                                当你老了，回顾一生，就会发觉：什么时候出国读书、...
+                            </div>
+                            <div class="info">
+                                <span>来自生活组小组</span>
+                                <span>今天13:54</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row activity">
+                        <div class="col col-3">
+                            <div class="like">
+                                <div>10</div>
+                                <div>喜欢</div>
+                            </div>
+                        </div>
+                        <div class="col col-21 preview">
+                            <a href="#" class="title">到目前为止，你觉得对你一生最重要的一年是哪一年？</a>
+                            <div class="desc">我的话，大概是2010年，离开家人到国外上学，开始跨国恋（当然最后失败了），现在回头看，那一年真的彻底改变了人生的方向 你们呢？
+                                送给大家一段我很喜欢的话：
+                                当你老了，回顾一生，就会发觉：什么时候出国读书、...
+                            </div>
+                            <div class="info">
+                                <span>来自生活组小组</span>
+                                <span>今天13:54</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row activity">
+                        <div class="col col-3">
+                            <div class="like">
+                                <div>10</div>
+                                <div>喜欢</div>
+                            </div>
+                        </div>
+                        <div class="col col-21 preview">
+                            <a href="#" class="title">到目前为止，你觉得对你一生最重要的一年是哪一年？</a>
+                            <div class="desc">我的话，大概是2010年，离开家人到国外上学，开始跨国恋（当然最后失败了），现在回头看，那一年真的彻底改变了人生的方向 你们呢？
+                                送给大家一段我很喜欢的话：
+                                当你老了，回顾一生，就会发觉：什么时候出国读书、...
+                            </div>
+                            <div class="info">
+                                <span>来自生活组小组</span>
+                                <span>今天13:54</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-7">
+                    <div class="title">值得加入的小组</div>
+                    <div>
+                        <div class="row rec">
+                            <div class="col col-6">
+                                <img src="http://dummyimage.com/300x300">
+                            </div>
+                            <div class="col col-18">
+                                <a href="#" class="title">杭州 出租 租房 中介免入</a>
+                                <div>
+                                    <span>183363个成员</span>
+                                    <a href="#">+加入小组</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rec">
+                            <div class="col col-6">
+                                <img src="http://dummyimage.com/300x300">
+                            </div>
+                            <div class="col col-18">
+                                <a href="#" class="title">杭州 出租 租房 中介免入</a>
+                                <div>
+                                    <span>183363个成员</span>
+                                    <a href="#">+加入小组</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rec">
+                            <div class="col col-6">
+                                <img src="http://dummyimage.com/300x300">
+                            </div>
+                            <div class="col col-18">
+                                <a href="#" class="title">杭州 出租 租房 中介免入</a>
+                                <div>
+                                    <span>183363个成员</span>
+                                    <a href="#">+加入小组</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row footer">
+    <div class="container">
+        <div class="col col-12">
+            © 2005－2018 douban.com, all rights reserved 北京豆网科技有限公司
+        </div>
+        <div class="col col-12 text-right">
+            <a href="#">关于豆瓣</a>
+            <a href="#">在豆瓣工作</a>
+            <a href="#">联系我们</a>
+            <a href="#">免责声明</a>
+            <a href="#">帮助中心</a>
+            <a href="#">移动应用</a>
+            <a href="#">豆瓣广告</a>
+        </div>
+    </div>
+</div>

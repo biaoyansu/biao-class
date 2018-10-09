@@ -1,76 +1,82 @@
 <style>
-    body {
-        font-family: sans-serif;
-    }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-    img {
-        max-width: 100%;
-    }
+body {
+    font-family: sans-serif;
+}
 
-    .row:before,
-    .row:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
+img {
+    max-width: 100%;
+}
 
-    .col {
-        float: left;
-    }
+.row:before,
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
-    .col-8 {
-        width: 33.333333333333333%;
-    }
+.col {
+    float: left;
+}
 
-    .muted {
-        opacity: .5;
-    }
+.col-8 {
+    width: 33.333333333333333%;
+}
 
-    .deleted {
-        text-decoration: line-through;
-    }
+.muted {
+    opacity: .5;
+}
 
-    .card {
-        background: #fff;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-        -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    }
+.deleted {
+    text-decoration: line-through;
+}
 
-    .card .thumbnail {
-        position: relative;
-    }
+.card {
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
 
-    .card .thumbnail .flag {
-        background: #b10;
-        color: #fff;
-        padding: 3px;
-        text-align: center;
-        font-size: 12px;
-        width: 64px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        margin-left: -32px;
-    }
+.card .thumbnail {
+    position: relative;
+}
 
-    .card .text {
-        padding: 10px;
-        text-align: center;
-    }
+.card .thumbnail .flag {
+    background: #b10;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 64px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+}
 
-    .card .text > * {
-        margin: 10px 0;
-    }
+.card .text {
+    padding: 10px;
+    text-align: center;
+}
 
-    .card .title {
-        font-weight: bold;
-    }
+.card .text > * {
+    margin: 10px 0;
+}
 
-    .card .price .hot {
-        color: #ff6700;
-        font-weight: bold;
-    }
+.card .title {
+    font-weight: bold;
+}
+
+.card .price .hot {
+    color: #ff6700;
+    font-weight: bold;
+}
 </style>
 
 <div class="row">
