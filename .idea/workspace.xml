@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/045-lianjia/first-screen-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/practice/045-lianjia/img/first-screen-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/045-lianjia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/045-lianjia/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/045-lianjia/lianjia-sprite-2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/practice/045-lianjia/img/lianjia-sprite-2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/045-lianjia/lianjia-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/practice/045-lianjia/img/lianjia-sprite.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +17,10 @@
     <session id="-812039980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -32,48 +28,49 @@
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="23" />
+          <entry key="css" value="70" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="275" />
+          <entry key="html" value="306" />
           <entry key="md" value="149" />
           <entry key="mp4" value="1" />
-          <entry key="png" value="2" />
+          <entry key="png" value="4" />
           <entry key="txt" value="1" />
+          <entry key="webp" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="23" />
-          <entry key="HTML" value="275" />
+          <entry key="CSS" value="70" />
+          <entry key="HTML" value="306" />
           <entry key="Hoi4 file" value="1" />
-          <entry key="Image" value="2" />
+          <entry key="Image" value="5" />
           <entry key="Markdown" value="149" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="112" />
+          <entry key="css" value="713" />
           <entry key="gitignore" value="25" />
-          <entry key="html" value="26396" />
+          <entry key="html" value="28288" />
           <entry key="md" value="5999" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="112" />
-          <entry key="HTML" value="26417" />
+          <entry key="CSS" value="713" />
+          <entry key="HTML" value="28307" />
           <entry key="Hoi4 file" value="13" />
           <entry key="Markdown" value="5963" />
           <entry key="PLAIN_TEXT" value="25" />
-          <entry key="SQL" value="15" />
+          <entry key="SQL" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -81,142 +78,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/045-lianjia/index.html">
+        <entry file="file://$PROJECT_DIR$/practice/046-mi/css/universal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#130#0" />
-                <element signature="e#151#177#0" />
-                <element signature="e#188#300#0" />
-                <element signature="e#309#396#0" />
-                <element signature="e#404#463#0" />
-                <element signature="e#473#505#0" />
-                <element signature="e#529#748#0" />
-                <element signature="e#784#822#0" />
-                <element signature="e#843#900#0" />
-                <element signature="e#1091#1174#0" />
-                <element signature="e#1188#1216#0" />
-                <element signature="e#1230#1272#0" />
-                <element signature="e#1286#1328#0" />
-                <element signature="e#1342#1371#0" />
-                <element signature="e#1385#1427#0" />
-                <element signature="e#1441#1483#0" />
-                <element signature="e#1497#1524#0" />
-                <element signature="e#1538#1580#0" />
-                <element signature="e#1594#1636#0" />
-                <element signature="e#1650#1692#0" />
-                <element signature="e#1706#1749#0" />
-                <element signature="e#1763#1805#0" />
-                <element signature="e#1819#1846#0" />
-                <element signature="e#1860#1903#0" />
-                <element signature="e#1917#1959#0" />
-                <element signature="e#1972#2001#0" />
-                <element signature="e#2014#2057#0" />
-                <element signature="e#2070#2113#0" />
-                <element signature="e#2126#2153#0" />
-                <element signature="e#2166#2209#0" />
-                <element signature="e#2222#2265#0" />
-                <element signature="e#2278#2307#0" />
-                <element signature="e#2320#2362#0" />
-                <element signature="e#2375#2417#0" />
-                <element signature="e#2564#2598#0" />
-                <element signature="e#2615#2649#0" />
-                <element signature="e#2661#2689#0" />
-                <element signature="e#2702#2731#0" />
-                <element signature="e#2754#2818#0" />
-                <element signature="e#2853#2896#0" />
-                <element signature="e#2930#3006#0" />
-                <element signature="e#3018#3046#0" />
-                <element signature="n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#div#1;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#4;n#div#1;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#1;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#2;n#!!top" />
-              </folding>
+            <state relative-caret-position="449">
+              <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -250,13 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/017-lianjia-complete/1.html" />
-        <option value="$PROJECT_DIR$/practice/018-xiaomi-complete/1.html" />
-        <option value="$PROJECT_DIR$/practice/019-zhihu/1.html" />
-        <option value="$PROJECT_DIR$/practice/020-oneplus/1.html" />
-        <option value="$PROJECT_DIR$/practice/021-css-selector/1.html" />
-        <option value="$PROJECT_DIR$/practice/021-css-selector/oneplus-nav.html" />
-        <option value="$PROJECT_DIR$/tmp/css.link.1.html" />
         <option value="$PROJECT_DIR$/tmp/css.link.1.pure-demo.html" />
         <option value="$PROJECT_DIR$/tmp/2.html" />
         <option value="$PROJECT_DIR$/practice/022-css-syntax/index.html" />
@@ -269,7 +127,6 @@
         <option value="$PROJECT_DIR$/practice/023-frontend.8-1/index.html" />
         <option value="$PROJECT_DIR$/practice/025-css-specificity/1.html" />
         <option value="$PROJECT_DIR$/tmp/index.html" />
-        <option value="$PROJECT_DIR$/tmp/tmp.css" />
         <option value="$USER_HOME$/Downloads/index1.html" />
         <option value="$PROJECT_DIR$/tmp/tmp.md" />
         <option value="$PROJECT_DIR$/practice/026-float/1.html" />
@@ -299,8 +156,16 @@
         <option value="$PROJECT_DIR$/practice/042-image-center/index.html" />
         <option value="$PROJECT_DIR$/practice/043-image-center/index.html" />
         <option value="$PROJECT_DIR$/practice/044-image-center/index.html" />
-        <option value="$PROJECT_DIR$/tmp/tmp.html" />
         <option value="$PROJECT_DIR$/practice/045-lianjia/index.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp2.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.css" />
+        <option value="$PROJECT_DIR$/tmp/002-product-video-player.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.html" />
+        <option value="$PROJECT_DIR$/practice/046-mi/css/main.css" />
+        <option value="$PROJECT_DIR$/practice/046-mi/css/global.css" />
+        <option value="$PROJECT_DIR$/practice/046-mi/css/home.css" />
+        <option value="$PROJECT_DIR$/practice/046-mi/index.html" />
+        <option value="$PROJECT_DIR$/practice/046-mi/css/universal.css" />
       </list>
     </option>
   </component>
@@ -375,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -392,38 +258,51 @@
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="045-lianjia" type="462c0819:PsiDirectoryNode" />
+              <item name="046-mi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="046-mi" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="046-mi" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539163766312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539495868839" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/practice" />
-      <recent name="$PROJECT_DIR$/practice/29-nested-row-col" />
-      <recent name="$PROJECT_DIR$/practice/028-float-1-row-n-col" />
-      <recent name="$PROJECT_DIR$/tmp" />
-      <recent name="$PROJECT_DIR$/practice/015-functional-element" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice/046-mi/img" />
       <recent name="$PROJECT_DIR$/practice/045-lianjia/img" />
       <recent name="$PROJECT_DIR$/practice/045-lianjia" />
       <recent name="$PROJECT_DIR$/practice/040-douban" />
       <recent name="$PROJECT_DIR$/practice/035-lianjia-nav" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice/046-mi/css" />
       <recent name="$PROJECT_DIR$/practice" />
+      <recent name="$PROJECT_DIR$/practice/29-nested-row-col" />
+      <recent name="$PROJECT_DIR$/practice/028-float-1-row-n-col" />
+      <recent name="$PROJECT_DIR$/tmp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -512,18 +391,21 @@
       <workItem from="1539069159808" duration="505000" />
       <workItem from="1539069769892" duration="1873000" />
       <workItem from="1539154933263" duration="7345000" />
-      <workItem from="1539228228789" duration="8815000" />
+      <workItem from="1539228228789" duration="10436000" />
+      <workItem from="1539327676172" duration="2084000" />
+      <workItem from="1539486109304" duration="5596000" />
+      <workItem from="1539519497199" duration="6642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152404000" />
+    <option name="totallyTimeSpent" value="168347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1024" height="640" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24511719" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31835938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -571,55 +453,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/016-douban-complete/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/017-lianjia-complete/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/018-xiaomi-complete/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/019-zhihu/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="55" column="22" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/020-oneplus/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="118" lean-forward="true" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/021-css-selector/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/021-css-selector/oneplus-nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/022-css-syntax/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -652,13 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="1" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -695,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" lean-forward="true" selection-end-line="10" selection-end-column="793" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tmp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -897,60 +716,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tmp.html">
+    <entry file="file://$PROJECT_DIR$/tmp/tmp2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="229">
+          <caret line="11" column="8" lean-forward="true" selection-end-line="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/002-product-video-player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/046-mi/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/046-mi/img/doodle.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice/045-lianjia/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        <state relative-caret-position="373">
+          <caret line="216" column="5" lean-forward="true" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
           <folding>
             <element signature="e#14#130#0" />
-            <element signature="e#151#177#0" />
             <element signature="e#188#300#0" />
             <element signature="e#309#396#0" />
             <element signature="e#404#463#0" />
             <element signature="e#473#505#0" />
             <element signature="e#529#748#0" />
             <element signature="e#784#822#0" />
-            <element signature="e#843#900#0" />
-            <element signature="e#1091#1174#0" />
-            <element signature="e#1188#1216#0" />
-            <element signature="e#1230#1272#0" />
-            <element signature="e#1286#1328#0" />
-            <element signature="e#1342#1371#0" />
-            <element signature="e#1385#1427#0" />
-            <element signature="e#1441#1483#0" />
-            <element signature="e#1497#1524#0" />
-            <element signature="e#1538#1580#0" />
-            <element signature="e#1594#1636#0" />
-            <element signature="e#1650#1692#0" />
-            <element signature="e#1706#1749#0" />
-            <element signature="e#1763#1805#0" />
-            <element signature="e#1819#1846#0" />
-            <element signature="e#1860#1903#0" />
-            <element signature="e#1917#1959#0" />
-            <element signature="e#1972#2001#0" />
-            <element signature="e#2014#2057#0" />
-            <element signature="e#2070#2113#0" />
-            <element signature="e#2126#2153#0" />
-            <element signature="e#2166#2209#0" />
-            <element signature="e#2222#2265#0" />
-            <element signature="e#2278#2307#0" />
-            <element signature="e#2320#2362#0" />
-            <element signature="e#2375#2417#0" />
-            <element signature="e#2564#2598#0" />
-            <element signature="e#2615#2649#0" />
-            <element signature="e#2661#2689#0" />
-            <element signature="e#2702#2731#0" />
-            <element signature="e#2754#2818#0" />
-            <element signature="e#2853#2896#0" />
-            <element signature="e#2930#3006#0" />
-            <element signature="e#3018#3046#0" />
             <element signature="n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
@@ -1040,6 +847,44 @@
             <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#2;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/046-mi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#!!top" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/046-mi/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/046-mi/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/046-mi/css/universal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
         </state>
       </provider>
     </entry>

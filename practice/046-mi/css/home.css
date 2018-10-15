@@ -1,0 +1,46 @@
+.logo {
+  background: #ff6700;
+  height: 40px;
+  width: 40px;
+  background-image: url(../img/logo.png);
+  background-position: center;
+  background-size: 80%;
+}
+
+.doodle {
+  width: 120px;
+}
+
+.nav.page .search input,
+.img-group {
+  margin-top: 17px;
+}
+
+.nav.page .link-group > * {
+  padding: 30px 10px;
+  display: inline-block;
+  color: inherit;
+  font-size: 1.2em;
+}
+
+.nav.page .search {
+  position: relative;
+}
+
+.nav.page .search input {
+  width: 240px;
+}
+
+.nav.page .search .rec-group {
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  top: 26px;
+}
+
+.nav.page .search .rec {
+  font-size: .7em;
+  padding: .5em 1em;
+  background: #eee;
+  margin-left: .5em 1em;
+}

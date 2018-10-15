@@ -1,0 +1,45 @@
+button,
+input {
+  border: 1px solid rgba(0, 0, 0, .15);
+  padding: 12px 15px;
+  outline: 0;
+  color: #444;
+}
+
+button:focus,
+input:focus {
+  border-color: #00ae66;
+}
+
+input.shadow {
+  border: 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+button.primary {
+  color: #fff;
+  background: #00ae66;
+}
+
+.nav.global {
+  background: #333;
+  color: #ccc;
+}
+
+.nav.global a {
+  display: inline-block;
+  padding: 5px;
+  color: inherit;
+}
+
+.nav.global a:hover {
+  color: #fff;
+}
+
+.nav.global a.lighter {
+  background: #555;
+  padding-left: 1em;
+  padding-right: 1em;
+}
