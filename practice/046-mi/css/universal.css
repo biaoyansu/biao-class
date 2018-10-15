@@ -6,6 +6,7 @@
 
 :root {
   font-size: 10px;
+  background: #f0f0f0;
 }
 
 body,
@@ -186,3 +187,4 @@ img {
 .search-input button {
   border-left: 0;
 }
+

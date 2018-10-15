@@ -1,3 +1,7 @@
+.first-screen > * {
+  margin-bottom: 10px;
+}
+
 .logo {
   background: #ff6700;
   height: 40px;
@@ -9,6 +13,10 @@
 
 .doodle {
   width: 120px;
+}
+
+.nav.page {
+  margin-bottom: 0;
 }
 
 .nav.page .search input,
@@ -42,5 +50,60 @@
   font-size: .7em;
   padding: .5em 1em;
   background: #eee;
-  margin-left: .5em 1em;
+  margin-left: .5em;
 }
+
+.slider .container {
+  background-image: url(../img/slider.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.slider .cat-group {
+  padding: 10px 0;
+  background: rgba(0, 0, 0, .7);
+}
+
+.slider .cat {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.slider .cat:hover {
+  background: #ff6700;
+}
+
+.slider .preview {
+  position: relative;
+}
+
+.slider .navigator > * {
+  background-image: url(../img/slider-nav.png);
+  position: absolute;
+  top: 150px;
+  width: 30px;
+  height: 56px;
+}
+
+.slider .navigator .prev {
+  background-position: -4px -7px;
+  left: 0;
+}
+
+.slider .navigator .next {
+  background-position: -50px -7px;
+  right: 0;
+}
+
+.shortcuts {
+  color: #e1d9d1;
+  background: #60574f;
+}
+
+.shortcuts > * {
+  padding: 20px 10px;
+}
+

@@ -43,3 +43,44 @@ button.primary {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+.card {
+  display: block;
+  background: #fff;
+  text-align: center;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.card .text > * {
+  margin-bottom: 5px;
+}
+
+.card .text > *:last-child {
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.cat-box .title {
+  font-size: 1.8em;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.card .thumbnail {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card-group > .col {
+  padding-bottom: 5px;
+}
