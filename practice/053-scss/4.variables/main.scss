@@ -1,0 +1,23 @@
+$red: #c10;
+$lh: 2;
+$tomato: tomato;
+$after: "Muhaha";
+$shadow: 0 0 10px rgba(0,0,0,.3);
+
+p {
+  $red: royalblue;
+  border: 5px $red solid;
+  color: $tomato;
+  line-height: $lh;
+}
+
+p:after {
+  content: $after;
+}
+
+div {
+  background: $red;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}

@@ -1,0 +1,33 @@
+form {
+  a, span {
+    color: tomato;
+  }
+
+  span {
+    border: solid;
+  }
+
+  &:hover {
+    background: #ccc;
+  }
+}
+
+.a {
+  &-1 {
+    color: deeppink;
+  }
+
+  &-2 {
+    color: purple;
+  }
+}
+
+#a {
+  &-1 {
+    color: deeppink;
+  }
+
+  &-2 {
+    color: purple;
+  }
+}

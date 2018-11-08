@@ -1,0 +1,12 @@
+$width: 400px;
+$shrink-ratio: 1.5;
+$str: '-a';
+
+p {
+  width: $width / (2 + $shrink-ratio);
+  background: tomato + royalblue;
+}
+
+p:after {
+  content: 'Yo' + $str;
+}

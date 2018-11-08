@@ -1,0 +1,21 @@
+.danger {
+  background: tomato;
+  color: #fff;
+}
+
+.btn {
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.btn-default {
+  @extend .btn;
+
+  padding: 5px 10px;
+}
+
+.btn-danger {
+  @extend .btn-default;
+  @extend .danger;
+
+  border-color: black;
+}

@@ -1,0 +1,6 @@
+p {
+  width: 114.28571px;
+  background: #ffccff; }
+
+p:after {
+  content: "Yo-a"; }

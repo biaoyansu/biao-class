@@ -1,0 +1,73 @@
+button,
+input {
+    border: 1px solid rgba(0, 0, 0, .15);
+    padding: 6px 10px;
+    outline: 0;
+    color: #444;
+}
+
+button:focus,
+input:focus {
+    border-color: #0077e6;
+}
+
+input.shadow {
+    border: 0;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+button.primary {
+    color: #fff;
+    background: #0077e6;
+}
+
+.nav.global {
+    background: #333;
+    color: #ccc;
+}
+
+.nav.global a {
+    display: inline-block;
+    padding: 5px;
+    color: inherit;
+}
+
+.nav.global a:hover {
+    color: #fff;
+}
+
+.nav.global a.lighter {
+    background: #555;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.card {
+    display: block;
+    background: #fff;
+}
+
+.card .text > * {
+    margin-bottom: 5px;
+}
+
+.card .text > *:last-child {
+    padding-bottom: 20px;
+}
+
+.cat-box .title {
+    font-size: 1.8em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.card .thumbnail {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card-group > .col {
+    padding-bottom: 5px;
+}

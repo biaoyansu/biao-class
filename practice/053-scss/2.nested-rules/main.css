@@ -1,0 +1,20 @@
+form a, form span {
+  color: tomato; }
+
+form span {
+  border: solid; }
+
+form:hover {
+  background: #ccc; }
+
+.a-1 {
+  color: deeppink; }
+
+.a-2 {
+  color: purple; }
+
+#a-1 {
+  color: deeppink; }
+
+#a-2 {
+  color: purple; }
