@@ -1,0 +1,34 @@
+<script>
+  function add(a, b) {
+    return a + b;
+  }
+</script>
+
+<script>
+  let list1 = [
+    '王花花',
+    '刘备备',
+    '李拴蛋',
+    '赵可爽',
+  ];
+
+  let list2 = [
+    'a',
+    'b',
+    'c',
+    'd',
+  ];
+
+  function breaker(badAss, list) {
+    for (let i = 0; i < list.length; i++) {
+      let it = list[i];
+
+      if (it === badAss)
+        break;
+
+      console.log(it);
+    }
+  }
+
+  breaker('c', list2);
+</script>

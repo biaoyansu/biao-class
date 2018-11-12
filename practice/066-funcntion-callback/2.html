@@ -1,0 +1,31 @@
+<script>
+  let arr = ['a', 'b', 'c'];
+
+  // function printer(list) {
+  //   for (let i = 0; i < list.length; i++) {
+  //     console.log(list[i]);
+  //   }
+  // }
+
+  function iterator(list, fn) {
+    for (let i = 0; i < list.length; i++) {
+      fn(list[i]);
+    }
+  }
+
+  // printer(arr);
+  iterator(arr, function (it) {
+    console.log(it);
+  });
+
+  iterator(arr, function (it) {
+    console.log('我是' + it);
+  });
+
+  let strSum = '';
+  iterator(arr, function (it) {
+    strSum += it;
+  });
+
+  console.log(strSum);
+</script>

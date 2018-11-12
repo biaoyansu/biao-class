@@ -1,0 +1,21 @@
+<script>
+  let a = 1;
+
+  function outer() {
+    let b = 2;
+    console.log('a:', a);
+    console.log('b:', b);
+
+    inner();
+
+    function inner() {
+      console.log('a:', a);
+      console.log('b:', b);
+    }
+  }
+
+  outer();
+
+  console.log('a:', a);
+  console.log('b:', b);
+</script>

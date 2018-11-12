@@ -1,0 +1,48 @@
+<script>
+  let userList = [
+    {
+      name: '王花花',
+      salary: 100,
+    },
+    {
+      name: '李拴蛋',
+      salary: 200,
+    },
+    {
+      name: '牛备备',
+      salary: 300,
+    },
+  ];
+
+  let fooList = [
+    {
+      name: 'a',
+      salary: 50,
+    },
+    {
+      name: 'b',
+      salary: 500,
+    },
+    {
+      name: 'c',
+      salary: 200,
+    },
+  ];
+
+  function getRich(list, boundary) {
+    let result = [];
+
+    for (let i = 0; i < list.length; i++) {
+      let it = list[i];
+
+      if (it.salary <= boundary)
+        continue;
+
+      result.push(it);
+    }
+
+    return result;
+  }
+
+  console.log(getRich(fooList, 400));
+</script>

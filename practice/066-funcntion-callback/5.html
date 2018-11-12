@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script>
+  function cooking(吃什么, 几个人, 有忌口吗) {
+    console.log('1. 买菜：' + '买跟' + 吃什么() + '相关的食材');
+    console.log('2. 蒸饭：' + '蒸' + 几个人() + '的饭');
+    console.log('4. 炒菜：' + '客人' + 有忌口吗());
+  }
+
+  function 红烧肉() {
+    return '红烧肉';
+  }
+
+  function 数人() {
+    let myGuest = 1;
+    let dadsGuest = 2;
+
+    return myGuest + dadsGuest;
+  }
+
+  function 询问忌口() {
+    let myGuest = '不吃香菜';
+    let dadsGuest = '不吃辣';
+
+    return [myGuest, dadsGuest];
+  }
+
+  cooking(红烧肉, 数人, 询问忌口);
+</script>

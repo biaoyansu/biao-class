@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script>
+  function shopping(setColor) {
+    console.log('1. 买菜');
+    console.log('2. 买生活用品');
+
+    console.log('3. 买秋裤，问问娃想穿啥颜色的');
+    let color = setColor();
+    console.log('   娃想穿' + color + '色的');
+
+    console.log('4. 结账');
+  }
+
+  function setToRed() {
+    return 'green';
+  }
+
+  shopping(setToRed);
+</script>

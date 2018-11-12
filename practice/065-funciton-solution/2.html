@@ -1,0 +1,44 @@
+<script>
+  let list =
+    ['a1', 'a2',
+      ['b1', 'b2',
+        ['c1', 'c2', 'c3', ['d1', 'd2', 'd3',
+          ['e1', 'e2', [
+            'f1', 'f2', 'f3',
+          ], 'e3']]],
+        'b3'],
+      'a3'];
+
+  function lister(arr, level = 0, filtered = {}) {
+    for (let i = 0; i < arr.length; i++) {
+      let it = arr[i];
+
+      if (typeof it === 'string') {
+        if (typeof filtered[level] !== 'object') {
+          filtered[level] = [];
+        }
+
+        filtered[level].push(it);
+      } else {
+        lister(it, level + 1, filtered);
+      }
+    }
+
+    return filtered;
+  }
+
+  function printer(obj) {
+    for (let key in obj) {
+      let arr = obj[key];
+      let str = '第' + (+key + 1) + '级：';
+      for (let i = 0; i < arr.length; i++) {
+        str += arr[i] + ' ';
+      }
+      console.log(str);
+    }
+  }
+
+  let filtered = lister(list);
+
+  printer(filtered);
+</script>
