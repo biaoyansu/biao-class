@@ -1,0 +1,72 @@
+<script>
+  function eachNumber(arr, fn) {
+    for (let i = 0; i < arr.length; i++) {
+      let it = arr[i];
+
+      if (typeof it != 'number')
+        throw it + '不是number类型';
+
+      fn(it);
+    }
+  }
+
+  /**
+   * 过滤偶数
+   * @param {Array} arr 数字组成的数组
+   * @return {Array} 数组，所有偶数
+   */
+  function evenNumber(arr) {
+    let result = [];
+
+    eachNumber(arr, function (it) {
+      if (it % 2)
+        return;
+
+      result.push(it);
+    });
+
+    return result;
+  }
+
+  /**
+   * 过滤奇数
+   * @param {Array} arr 数字组成的数组
+   * @return {Array} 数组，所有奇数
+   */
+  function oddNumber(arr) {
+    let result = [];
+
+    eachNumber(arr, function (it) {
+      if (!(it % 2))
+        return;
+
+      result.push(it);
+    });
+
+    return result;
+  }
+
+  /**
+   * 求数组中所有元素的和
+   * @param arr
+   * @return {number}
+   */
+  function sum(arr) {
+    let sum = 0;
+
+    // eachNumber(arr, function (it) {
+    //   return sum += it;
+    // });
+
+    eachNumber(arr, it => sum += it);
+
+    return sum;
+  }
+
+  let evenList = evenNumber([1, 2, 3, 4]);
+  let oddList = oddNumber([1, 2, 3, 4]);
+  let total = sum([1, 2, 3, 4]);
+  // console.log(evenList);
+  // console.log(oddList);
+  console.log(total);
+</script>
