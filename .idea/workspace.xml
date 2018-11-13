@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="" />
+    <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/066-funcntion-callback/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/066-funcntion-callback-2/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/066-funcntion-callback/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/066-funcntion-callback-2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/066-funcntion-callback/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/066-funcntion-callback-2/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/066-funcntion-callback/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/066-funcntion-callback-2/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/066-funcntion-callback/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/066-funcntion-callback-2/5.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +19,8 @@
     <session id="-812039980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="67" />
-          <entry key="project.open.time.0" value="12" />
+          <entry key="project.closed" value="69" />
+          <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="4" />
@@ -23,13 +30,13 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="11" />
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="70" />
+          <entry key="project.opened" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,8 +44,8 @@
           <entry key="cmd" value="1" />
           <entry key="css" value="194" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="572" />
-          <entry key="js" value="14" />
+          <entry key="html" value="581" />
+          <entry key="js" value="19" />
           <entry key="md" value="149" />
           <entry key="mp4" value="1" />
           <entry key="png" value="5" />
@@ -51,10 +58,10 @@
         <counts>
           <entry key="CSS" value="194" />
           <entry key="Cmd" value="1" />
-          <entry key="HTML" value="572" />
+          <entry key="HTML" value="581" />
           <entry key="Hoi4 file" value="3" />
           <entry key="Image" value="6" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="19" />
           <entry key="Markdown" value="149" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="100" />
@@ -64,8 +71,8 @@
         <counts>
           <entry key="css" value="1641" />
           <entry key="gitignore" value="25" />
-          <entry key="html" value="48488" />
-          <entry key="js" value="2402" />
+          <entry key="html" value="49125" />
+          <entry key="js" value="4421" />
           <entry key="md" value="6111" />
           <entry key="scss" value="1141" />
           <entry key="txt" value="35" />
@@ -74,9 +81,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1641" />
-          <entry key="HTML" value="48505" />
+          <entry key="HTML" value="49142" />
           <entry key="Hoi4 file" value="35" />
-          <entry key="JavaScript" value="2402" />
+          <entry key="JavaScript" value="4421" />
           <entry key="Markdown" value="6075" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="SCSS" value="1141" />
@@ -88,20 +95,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/067-funcntion-callback/2.html">
+        <entry file="file://$PROJECT_DIR$/practice/069-ad-board/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-              <folding>
-                <element signature="e#40#144#0" />
-                <element signature="e#104#120#0" />
-                <element signature="e#138#148#0" />
-                <element signature="e#174#188#0" />
-                <element signature="e#457#525#0" />
-                <element signature="e#578#588#0" />
-                <element signature="e#603#637#0" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -144,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice/053-scss/6.import/main.scss" />
-        <option value="$PROJECT_DIR$/practice/053-scss/6.import/main.css" />
         <option value="$PROJECT_DIR$/practice/053-scss/7.extend/index.html" />
         <option value="$PROJECT_DIR$/practice/053-scss/7.extend/main.css" />
         <option value="$PROJECT_DIR$/practice/053-scss/7.extend/main.scss" />
@@ -192,9 +187,11 @@
         <option value="$PROJECT_DIR$/practice/066-funcntion-callback/3.html" />
         <option value="$PROJECT_DIR$/practice/066-funcntion-callback/4.html" />
         <option value="$PROJECT_DIR$/practice/066-funcntion-callback/5.html" />
-        <option value="$PROJECT_DIR$/tmp/tmp.js" />
         <option value="$PROJECT_DIR$/practice/067-funcntion-callback/1.html" />
         <option value="$PROJECT_DIR$/practice/067-funcntion-callback/2.html" />
+        <option value="$PROJECT_DIR$/practice/068-funcntion-callback-3/1.html" />
+        <option value="$PROJECT_DIR$/tmp/tmp.js" />
+        <option value="$PROJECT_DIR$/practice/069-ad-board/1.html" />
       </list>
     </option>
   </component>
@@ -204,7 +201,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="260" />
     <option name="width" value="1024" />
     <option name="height" value="640" />
   </component>
@@ -269,7 +267,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,7 +283,13 @@
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
               <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="067-funcntion-callback" type="462c0819:PsiDirectoryNode" />
+              <item name="068-funcntion-callback-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biao-class3" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="069-ad-board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biao-class3" type="b2602c69:ProjectViewProjectNode" />
@@ -297,31 +300,32 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541675196641" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542018549484" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/practice/067-funcntion-callback" />
-      <recent name="$PROJECT_DIR$/practice" />
-      <recent name="$PROJECT_DIR$/practice/066-funcntion-callback" />
-      <recent name="$PROJECT_DIR$/practice/065-funciton-solution" />
-      <recent name="$PROJECT_DIR$/practice/064-function" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/practice/053-scss/1.install" />
       <recent name="$PROJECT_DIR$/practice" />
       <recent name="$PROJECT_DIR$/practice/046-mi/img" />
       <recent name="$PROJECT_DIR$/practice/045-lianjia/img" />
       <recent name="$PROJECT_DIR$/practice/045-lianjia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice" />
+      <recent name="$PROJECT_DIR$/practice/067-funcntion-callback" />
+      <recent name="$PROJECT_DIR$/practice/066-funcntion-callback" />
+      <recent name="$PROJECT_DIR$/practice/065-funciton-solution" />
+      <recent name="$PROJECT_DIR$/practice/064-function" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,16 +456,17 @@
       <workItem from="1541809857405" duration="38000" />
       <workItem from="1542006007245" duration="5000" />
       <workItem from="1542006106897" duration="71000" />
-      <workItem from="1542006210069" duration="5188000" />
+      <workItem from="1542006210069" duration="9850000" />
+      <workItem from="1542092202889" duration="18000" />
+      <workItem from="1542092247134" duration="2135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281046000" />
+    <option name="totallyTimeSpent" value="287861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="640" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1024" height="640" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23144531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,7 +482,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.52589" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.52589" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -511,20 +516,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice/053-scss/6.import/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/053-scss/6.import/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/053-scss/7.extend/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -790,65 +781,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/06-funciton-solution/1.html" />
-    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback/5.html">
+    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback-2/5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback/1.html">
+    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback-2/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback/2.html">
+    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback-2/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback/3.html">
+    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback-2/3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback/4.html">
+    <entry file="file://$PROJECT_DIR$/practice/066-funcntion-callback-2/4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tmp.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/practice/068-funcntion-callback-3/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/067-funcntion-callback/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="-326">
           <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/067-funcntion-callback/2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#144#0" />
-            <element signature="e#104#120#0" />
-            <element signature="e#138#148#0" />
-            <element signature="e#174#188#0" />
-            <element signature="e#457#525#0" />
-            <element signature="e#578#588#0" />
-            <element signature="e#603#637#0" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="63" column="3" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="63" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tmp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/069-ad-board/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
