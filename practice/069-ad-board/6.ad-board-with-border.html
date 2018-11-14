@@ -1,0 +1,74 @@
+<meta charset="utf-8">
+<style>
+:root {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.board {
+  display: inline-block;
+  font-size: 2rem;
+  background: #000;
+  color: red;
+  padding: 10px;
+  line-height: 1;
+  opacity: 1;
+  border: 2px solid;
+}
+
+[hidden] {
+  display: none !important;
+}
+</style>
+
+<div class="board">
+  <span class="inner"></span>
+</div>
+
+<script>
+// 以整个文档为范围选中.board
+const board = document.querySelector('.board');
+// 以.board为范围选中.inner
+const inner = board.querySelector('.inner');
+
+// 提供的所有服务
+const services = [
+  '修脚', '擀面皮', '保健用品',
+  '上市申报', '贴膜',
+];
+
+// 当前显示的服务
+let current = 0;
+
+// 初始显示
+inner.innerText = services[current];
+
+// 设置间隔
+setInterval(function () {
+  // .inner是否可见
+  let visible = getComputedStyle(inner).opacity == '1';
+
+  // 如果可见
+  if (visible) {
+    // 就隐藏它（让其透明）
+    inner.style.opacity = 0;
+    // 同时隐藏边框（让其透明）
+    board.style.borderColor = 'transparent';
+  } else { // 否则
+    // 显示文字
+    inner.style.opacity = 1;
+    // 显示边框
+    board.style.borderColor = 'inherit';
+
+    // 自增，为下一次循环，做准备
+    current++;
+
+    // 如果循环到头了，就复位从第一个开始
+    if (current >= services.length)
+      current = 0;
+
+    // 通过当前显示的服务索引动态更新内部文字
+    inner.innerText = services[current];
+  }
+}, 500);
+</script>

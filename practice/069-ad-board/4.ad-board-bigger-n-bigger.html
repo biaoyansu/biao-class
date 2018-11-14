@@ -1,0 +1,60 @@
+<meta charset="utf-8">
+<style>
+:root {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.board {
+  display: inline-block;
+  font-size: 2rem;
+  background: #000;
+  color: red;
+  padding: 10px;
+  line-height: 1;
+  opacity: 1;
+  border: 2px solid;
+}
+
+[hidden] {
+  display: none !important;
+}
+</style>
+
+<div class="board">
+  <span class="inner">修脚 贴膜</span>
+</div>
+
+<script>
+// 以整个文档为范围选中.board
+const board = document.querySelector('.board');
+// 以.board为范围选中.inner
+const inner = board.querySelector('.inner');
+
+let size = 1;
+
+// 设置间隔
+setInterval(function () {
+  // .inner是否可见
+  let visible = getComputedStyle(inner).opacity == '1';
+
+  // 如果可见
+  if (visible) {
+    // 就隐藏它（让其透明）
+    inner.style.opacity = 0;
+    // 同时隐藏边框（让其透明）
+    board.style.borderColor = 'transparent';
+  } else { // 否则
+    // 显示文字
+    inner.style.opacity = 1;
+    // 显示边框
+    board.style.borderColor = 'inherit';
+
+    // 如果尺寸不超过3倍就继续加，否则复位为1
+    size < 3 ? size++ : size = 1;
+
+    // 设置新的字体大小
+    board.style.fontSize = 2 * size + 'rem';
+  }
+}, 500);
+</script>
