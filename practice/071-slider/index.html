@@ -1,92 +1,111 @@
 <style>
-  img {
-    max-width: 100%;
-    display: block;
-  }
+img {
+  max-width: 100%;
+  display: block;
+}
 
-  .container {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .slider {
-    position: relative;
-  }
+.slider {
+  position: relative;
+}
 
-  .item {
-    opacity: 0;
-    position: absolute;
-    display: block;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-  }
+.item {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
 </style>
 
 <div class="container">
   <div class="slider">
     <a class="item" href="#">
-      <img src="./img/1000x500-A.png" alt="A">
+      <img src="http://dummyimage.com/1000x500?text=A" alt="A">
     </a>
     <a class="item" href="#">
-      <img src="./img/1000x500-B.png" alt="B">
+      <img src="http://dummyimage.com/1000x500?text=B" alt="B">
     </a>
     <a class="item" href="#">
-      <img src="./img/1000x500-C.png" alt="C">
+      <img src="http://dummyimage.com/1000x500?text=C" alt="C">
     </a>
   </div>
 </div>
 
 <script>
-  const parent = document.querySelector('.slider');
-  const slides = parent.querySelectorAll('.item');
-  let current = 0;
-  let lastIndex = slides.length - 1;
+const parent = document.querySelector('.slider');
+const slides = parent.querySelectorAll('.item');
+let current = 0;
+let lastIndex = slides.length - 1;
 
-  boot();
+boot();
 
-  function boot() {
-    show(slides[0]);
-    setInterval(() => {
-      loop();
-    }, 3000);
-  }
+function boot() {
+  // 直接显示第一张，防止空等一秒
+  show(slides[0]);
 
-  function loop() {
-    ++current;
+  setInterval(() => {
+    flip();
+  }, 1000);
+}
 
-    if (current >= slides.length)
-      current = 0;
+/**
+ * 一次翻页
+ */
+function flip() {
+  // 自增当前页
+  ++current;
 
-    let prev = getPrev();
-    let next = slides[current];
+  // 如果自增后超过最大页就重置为零（从头开始）
+  if (current >= slides.length)
+    current = 0;
 
-    hide(prev);
-    show(next);
-  }
+  let prev = getPrev();
+  let next = slides[current];
 
-  function getPrev() {
-    if (current == 0)
-      return slides[lastIndex];
-    else
-      return slides[current - 1];
-  }
+  hide(prev);
+  show(next);
+}
 
-  function hide(el) {
-    if (!el)
-      return;
+/**
+ * 获取前一页
+ * @return {Node}
+ */
+function getPrev() {
+  if (current == 0)
+    return slides[lastIndex];
+  else
+    return slides[current - 1];
+}
 
-    el.style.opacity = 0;
-  }
+/**
+ * 隐藏元素
+ * @param {HTMLElement} el
+ */
+function hide(el) {
+  if (!el)
+    return;
 
-  function show(el) {
-    if (!el)
-      return;
+  el.style.opacity = 0;
+}
 
-    el.style.opacity = 1;
-  }
+/**
+ * 隐藏元素
+ * @param {HTMLElement} el
+ */
+function show(el) {
+  if (!el)
+    return;
+
+  el.style.opacity = 1;
+}
 
 </script>
