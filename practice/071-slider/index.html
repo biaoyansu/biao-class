@@ -1,0 +1,92 @@
+<style>
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  .container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider {
+    position: relative;
+  }
+
+  .item {
+    opacity: 0;
+    position: absolute;
+    display: block;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+</style>
+
+<div class="container">
+  <div class="slider">
+    <a class="item" href="#">
+      <img src="./img/1000x500-A.png" alt="A">
+    </a>
+    <a class="item" href="#">
+      <img src="./img/1000x500-B.png" alt="B">
+    </a>
+    <a class="item" href="#">
+      <img src="./img/1000x500-C.png" alt="C">
+    </a>
+  </div>
+</div>
+
+<script>
+  const parent = document.querySelector('.slider');
+  const slides = parent.querySelectorAll('.item');
+  let current = 0;
+  let lastIndex = slides.length - 1;
+
+  boot();
+
+  function boot() {
+    show(slides[0]);
+    setInterval(() => {
+      loop();
+    }, 3000);
+  }
+
+  function loop() {
+    ++current;
+
+    if (current >= slides.length)
+      current = 0;
+
+    let prev = getPrev();
+    let next = slides[current];
+
+    hide(prev);
+    show(next);
+  }
+
+  function getPrev() {
+    if (current == 0)
+      return slides[lastIndex];
+    else
+      return slides[current - 1];
+  }
+
+  function hide(el) {
+    if (!el)
+      return;
+
+    el.style.opacity = 0;
+  }
+
+  function show(el) {
+    if (!el)
+      return;
+
+    el.style.opacity = 1;
+  }
+
+</script>

@@ -1,28 +1,28 @@
 <meta charset="utf-8">
 <style>
-:root {
-  font-family: sans-serif;
-  font-size: 15px;
-}
+  :root {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
 
-.board {
-  display: inline-block;
-  font-size: 2rem;
-  background: #000;
-  color: red;
-  padding: 10px;
-  line-height: 1;
-  opacity: 1;
-  border: 2px solid;
-}
+  .board {
+    display: inline-block;
+    font-size: 2rem;
+    background: #000;
+    color: red;
+    padding: 10px;
+    line-height: 1;
+    opacity: 1;
+    border: 2px solid;
+  }
 
-[hidden] {
-  display: none !important;
-}
+  [hidden] {
+    display: none !important;
+  }
 
-.counter {
-  font-size: .8rem;
-}
+  .counter {
+    font-size: 60%;
+  }
 </style>
 
 <div class="board">
@@ -53,8 +53,7 @@
     // 设置间隔
     setInterval(function () {
       toggleBorder();
-      toggleText();
-      incrementCount();
+      toggleText(increment);
     }, 500);
   }
 
@@ -68,9 +67,17 @@
 
   /**
    * 文字开关
+   * @param {Function} onShow 当文字显示时应该做什么
+   * @param {Function} onHide 当文字隐藏时应该做什么
    */
-  function toggleText() {
-    inner.style.opacity = isVisible() ? 0 : 1;
+  function toggleText(onShow, onHide) {
+    if (isVisible()) {
+      inner.style.opacity = 0;
+      onHide && onHide();
+    } else {
+      inner.style.opacity = 1;
+      onShow && onShow();
+    }
   }
 
   /**
@@ -81,13 +88,8 @@
       isVisible() ? 'transparent' : 'inherit';
   }
 
-  /**
-   * 自增计数器
-   */
-  function incrementCount() {
-    if (isVisible()) {
-      count++;
-      counter.innerText = count + '人用了都说好';
-    }
+  function increment() {
+    count++;
+    counter.innerText = count + '人用了都说好';
   }
 </script>

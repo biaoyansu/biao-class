@@ -1,24 +1,24 @@
 <meta charset="utf-8">
 <style>
-  :root {
-    font-family: sans-serif;
-    font-size: 15px;
-  }
+:root {
+  font-family: sans-serif;
+  font-size: 15px;
+}
 
-  .board {
-    display: inline-block;
-    font-size: 2rem;
-    background: #000;
-    color: red;
-    padding: 10px;
-    line-height: 1;
-    opacity: 1;
-  }
+.board {
+  display: inline-block;
+  font-size: 2rem;
+  background: #000;
+  color: red;
+  padding: 10px;
+  line-height: 1;
+  opacity: 1;
+}
 
-  /*所有拥有hidden属性的元素都应该隐藏*/
-  [hidden] {
-    display: none !important;
-  }
+/*所有拥有hidden属性的元素都应该隐藏*/
+[hidden] {
+  display: none !important;
+}
 </style>
 
 <div class="board">
@@ -26,53 +26,63 @@
 </div>
 
 <script>
-  // 以整个文档为范围选中.board
-  const board = document.querySelector('.board');
-  // 以.board为范围选中.inner
-  const inner = board.querySelector('.inner');
+// 以整个文档为范围选中.board
+const board = document.querySelector('.board');
+// 以.board为范围选中.inner
+const inner = board.querySelector('.inner');
 
-  boot();
+// 启动
+boot();
 
-  /**
-   * 启动函数，一切从这里开始
-   */
-  function boot() {
-    startFlash();
+/**
+ * 启动函数，一切从这里开始
+ */
+function boot() {
+  startFlash();
+}
+
+/**
+ * 开始闪烁
+ */
+function startFlash() {
+  // 设置间隔，500毫秒（半秒）执行一次
+  setInterval(function () {
+    toggleText(); // 文字开关
+    toggleColor(); // 颜色切换
+  }, 500);
+}
+
+/**
+ * 板子是否可见
+ * 用于检测当前的.inner是否可见
+ * @return {boolean}
+ */
+function isVisible(a, b) {
+  return getComputedStyle(inner).opacity == '1';
+}
+
+/**
+ * 颜色切换
+ */
+function toggleColor() {
+  // 只有文字显示时切换颜色才有意义
+  if (isVisible()) {
+    // 如果是红色就改成蓝色
+    if (getComputedStyle(board).color == 'rgb(255, 0, 0)')
+      board.style.color = 'rgb(65, 105, 225)';
+    // 否则改回红色
+    else
+      board.style.color = 'rgb(255, 0, 0)';
   }
+}
 
-  function startFlash() {
-    // 设置间隔，500毫秒（半秒）执行一次
-    setInterval(function () {
-      toggleText();
-      toggleColor();
-    }, 500);
-  }
-
-  /**
-   * 板子是否可见
-   * 用于检测当前的.inner是否可见
-   * @return {boolean}
-   */
-  function isVisible(a, b) {
-    return getComputedStyle(inner).opacity == '1';
-  }
-
-  function toggleColor() {
-    if (isVisible()) {
-      if (getComputedStyle(board).color == 'rgb(255, 0, 0)')
-        board.style.color = 'rgb(65, 105, 225)';
-      else
-        board.style.color = 'rgb(255, 0, 0)';
-    }
-  }
-
-  function toggleText() {
-    // .inner是否可见
-    let visible = isVisible();
-
-    // 如果可见
-    visible ?
-      inner.style.opacity = 0 : // 就隐藏它（让其透明）
-      inner.style.opacity = 1; // 否则就显示它（让其不透明）
-  }
+/**
+ * 文字开关
+ */
+function toggleText() {
+  // 如果.inner可见
+  isVisible() ?
+    inner.style.opacity = 0 : // 就隐藏它（让其透明）
+    inner.style.opacity = 1; // 否则就显示它（让其不透明）
+}
 </script>

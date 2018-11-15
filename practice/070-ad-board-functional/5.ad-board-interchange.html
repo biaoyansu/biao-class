@@ -34,35 +34,64 @@ const inner = board.querySelector('.inner');
 // 当前是否为修脚
 let pedicure = true;
 
-// 设置间隔
-setInterval(function () {
-  // 声明广告牌文字不确定，先声明
-  let text;
+// 启动
+boot();
 
-  // .inner是否可见
-  let visible = getComputedStyle(inner).opacity == '1';
+function boot() {
+  startFlash();
+}
 
-  // 如果可见
-  if (visible) {
-    // 就隐藏它（让其透明）
+/**
+ * 开始闪烁
+ */
+function startFlash() {
+  // 设置间隔
+  setInterval(function () {
+    toggleBorder();
+    toggleText(changeText);
+  }, 500);
+}
+
+/**
+ * .inner是否可见
+ * @return {boolean}
+ */
+function isVisible() {
+  return getComputedStyle(inner).opacity != '0';
+}
+
+/**
+ * 文字开关
+ * @param {Function} onShow 当文字显示时应该做什么
+ * @param {Function} onHide 当文字隐藏时应该做什么
+ */
+function toggleText(onShow, onHide) {
+  if (isVisible()) {
     inner.style.opacity = 0;
-    // 同时隐藏边框（让其透明）
-    board.style.borderColor = 'transparent';
-  } else { // 否则
-    // 显示文字
+    onHide && onHide();
+  } else {
     inner.style.opacity = 1;
-
-    // 显示边框
-    board.style.borderColor = 'inherit';
-
-    // 通过pedicure的状态判断当前应该显示的文字
-    pedicure ? text = '修脚' : text = '贴膜';
-
-    // 设置内部文字
-    inner.innerText = text;
-
-    // 将状态倒置，为下一次做准备
-    pedicure = !pedicure;
+    onShow && onShow();
   }
-}, 500);
+}
+
+/**
+ * 边框开关
+ */
+function toggleBorder() {
+  board.style.borderColor =
+    isVisible() ? 'transparent' : 'inherit';
+}
+
+
+function changeText() {
+  // 通过pedicure的状态判断当前应该显示的文字
+  pedicure ? text = '修脚' : text = '贴膜';
+
+  // 设置内部文字
+  inner.innerText = text;
+
+  // 将状态倒置，为下一次做准备
+  pedicure = !pedicure;
+}
 </script>

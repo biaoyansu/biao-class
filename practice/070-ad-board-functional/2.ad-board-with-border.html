@@ -1,24 +1,24 @@
 <meta charset="utf-8">
 <style>
-  :root {
-    font-family: sans-serif;
-    font-size: 15px;
-  }
+:root {
+  font-family: sans-serif;
+  font-size: 15px;
+}
 
-  .board {
-    display: inline-block;
-    font-size: 2rem;
-    background: #000;
-    color: red;
-    padding: 10px;
-    line-height: 1;
-    opacity: 1;
-    border: 2px solid;
-  }
+.board {
+  display: inline-block;
+  font-size: 2rem;
+  background: #000;
+  color: red;
+  padding: 10px;
+  line-height: 1;
+  opacity: 1;
+  border: 2px solid;
+}
 
-  [hidden] {
-    display: none !important;
-  }
+[hidden] {
+  display: none !important;
+}
 </style>
 
 <div class="board">
@@ -27,34 +27,48 @@
 
 <script>
   // 以整个文档为范围选中.board
-  const board = document.querySelector('.board');
-  // 以.board为范围选中.inner
-  const inner = board.querySelector('.inner');
+const board = document.querySelector('.board');
+// 以.board为范围选中.inner
+const inner = board.querySelector('.inner');
 
-  boot();
+// 启动
+boot();
 
-  function boot() {
-    startFlash();
-  }
+function boot() {
+  startFlash();
+}
 
-  function startFlash() {
-    // 设置间隔
-    setInterval(function () {
-      toggleBorder();
-      toggleText();
-    }, 500);
-  }
+/**
+ * 开始闪烁
+ */
+function startFlash() {
+  // 设置间隔
+  setInterval(function () {
+    toggleBorder();
+    toggleText();
+  }, 500);
+}
 
-  function isVisible() {
-    return getComputedStyle(inner).opacity != '0';
-  }
+/**
+ * .inner是否可见
+ * @return {boolean}
+ */
+function isVisible() {
+  return getComputedStyle(inner).opacity != '0';
+}
 
-  function toggleText() {
-    inner.style.opacity = isVisible() ? 0 : 1;
-  }
+/**
+ * 文字开关
+ */
+function toggleText() {
+  inner.style.opacity = isVisible() ? 0 : 1;
+}
 
-  function toggleBorder() {
-    board.style.borderColor =
-      isVisible() ? 'transparent' : 'inherit';
-  }
+/**
+ * 边框开关
+ */
+function toggleBorder() {
+  board.style.borderColor =
+    isVisible() ? 'transparent' : 'inherit';
+}
 </script>
