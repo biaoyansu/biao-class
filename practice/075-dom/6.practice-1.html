@@ -1,0 +1,55 @@
+<style>
+:root {
+  font-family: sans-serif;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  color: #000;
+}
+
+.dropdown {
+  margin-top: 5px;
+  background: #555;
+  position: absolute;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown a:hover {
+  background: rgba(0, 0, 0, .1);
+}
+
+[hidden] {
+  display: none;
+}
+</style>
+
+<button class="toggle">查看更多</button>
+
+<div class="dropdown" hidden> <!--默认隐藏下拉菜单-->
+  <a href="#">扫一扫</a>
+  <a href="#">加好友</a>
+  <a href="#">搜索</a>
+  <a href="#">帮助</a>
+  <a href="#">关于我们</a>
+</div>
+
+<script>
+// 选中.toggle按钮
+const toggle = document.querySelector('.toggle');
+// 选中.dropdown下拉菜单
+const dropdown = document.querySelector('.dropdown');
+
+// 给.toggle绑定事件，当.toggle被点击时，执行后面的函数
+toggle.addEventListener('click', () => {
+  // 倒置下拉菜单的可见性
+  dropdown.hidden = !dropdown.hidden;
+});
+</script>

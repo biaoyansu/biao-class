@@ -1,29 +1,26 @@
 <style>
-img {
-  max-width: 100%;
-  display: block;
-}
+  img {
+    max-width: 100%;
+    display: block;
+  }
 
-.container {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.slider {
-  position: relative;
-}
+  .slider {
+    position: relative;
+  }
 
-.item {
-  opacity: 0;
-  position: absolute;
-  display: block;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-}
+  .item {
+    opacity: 0;
+    position: absolute;
+    display: block;
+    transition: all .5s;
+    max-width: 100%;
+  }
 </style>
 
 <div class="container">
@@ -41,71 +38,74 @@ img {
 </div>
 
 <script>
-const parent = document.querySelector('.slider');
-const slides = parent.querySelectorAll('.item');
-let current = 0;
-let lastIndex = slides.length - 1;
+  // 选中.slider
+  const parent = document.querySelector('.slider');
+  // 在.slider中选中所有的.item
+  const slides = parent.querySelectorAll('.item');
+  // 默认从第一张开始
+  let current = 0;
+  // 拿到最后一张的索引
+  let lastIndex = slides.length - 1;
 
-boot();
+  boot();
 
-function boot() {
-  // 直接显示第一张，防止空等一秒
-  show(slides[0]);
+  function boot() {
+    // 直接显示第一张，防止空等一秒
+    show(slides[current]);
 
-  setInterval(() => {
-    flip();
-  }, 1000);
-}
+    setInterval(() => {
+      flip();
+    }, 1000);
+  }
 
-/**
- * 一次翻页
- */
-function flip() {
-  // 自增当前页
-  ++current;
+  /**
+   * 一次翻页
+   */
+  function flip() {
+    // 自增当前页
+    ++current;
 
-  // 如果自增后超过最大页就重置为零（从头开始）
-  if (current >= slides.length)
-    current = 0;
+    // 如果自增后超过最大页就重置为零（从头开始）
+    if (current >= slides.length)
+      current = 0;
 
-  let prev = getPrev();
-  let next = slides[current];
+    let prev = getPrev();
+    let next = slides[current];
 
-  hide(prev);
-  show(next);
-}
+    hide(prev);
+    show(next);
+  }
 
-/**
- * 获取前一页
- * @return {Node}
- */
-function getPrev() {
-  if (current == 0)
-    return slides[lastIndex];
-  else
-    return slides[current - 1];
-}
+  /**
+   * 获取前一页
+   * @return {Node}
+   */
+  function getPrev() {
+    if (current == 0)
+      return slides[lastIndex];
+    else
+      return slides[current - 1];
+  }
 
-/**
- * 隐藏元素
- * @param {HTMLElement} el
- */
-function hide(el) {
-  if (!el)
-    return;
+  /**
+   * 隐藏元素
+   * @param {HTMLElement} el
+   */
+  function hide(el) {
+    if (!el)
+      return;
 
-  el.style.opacity = 0;
-}
+    el.style.opacity = 0;
+  }
 
-/**
- * 隐藏元素
- * @param {HTMLElement} el
- */
-function show(el) {
-  if (!el)
-    return;
+  /**
+   * 隐藏元素
+   * @param {HTMLElement} el
+   */
+  function show(el) {
+    if (!el)
+      return;
 
-  el.style.opacity = 1;
-}
-
+    el.style.opacity = 1;
+  }
 </script>

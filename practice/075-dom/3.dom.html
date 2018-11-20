@@ -1,0 +1,31 @@
+<html>
+<body>
+<div id="a" class="a">
+  <div class="a1"></div>
+  <div class="a2"></div>
+</div>
+<div class="b">
+  <div class="b1"></div>
+  <div class="b2"></div>
+</div>
+<div class="c"></div>
+
+<script>
+  let q = document.querySelector.bind(document);
+
+  let html = q('html');
+  let html2 = document.documentElement;
+
+  let body = q('body');
+  let body2 = document.body;
+
+  let a = document.getElementById('a');
+  let a2 = document.getElementsByClassName('a')[0];
+  let a3 = q('#a');
+  let a4 = document.querySelectorAll('#a');
+
+  let div = document.getElementsByTagName('div')[0];
+  console.log(div);
+</script>
+</body>
+</html>

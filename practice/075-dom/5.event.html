@@ -1,0 +1,26 @@
+<style>
+  #a {
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+    background: gray;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+</style>
+
+<script>
+  a.addEventListener('mouseenter', () => {
+    console.log('进来了');
+  });
+
+  a.addEventListener('mouseleave', () => {
+    console.log('出去了');
+  });
+
+  window.addEventListener('keyup', (event) => {
+    console.log(event.key);
+  });
+</script>
