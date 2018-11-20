@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0147fea-55b4-4302-b46a-f3a0f2886da5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/practice/076-event/3.bind-event-with-addEventListener.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/076-event/3.bind-event-with-addEventListener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/077-dropdown/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/077-dropdown/1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
         <counts>
           <entry key="css" value="1668" />
           <entry key="gitignore" value="25" />
-          <entry key="html" value="59746" />
+          <entry key="html" value="59882" />
           <entry key="js" value="6365" />
           <entry key="md" value="6111" />
           <entry key="scss" value="1141" />
@@ -76,7 +76,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1668" />
-          <entry key="HTML" value="59762" />
+          <entry key="HTML" value="59898" />
           <entry key="Hoi4 file" value="35" />
           <entry key="JavaScript" value="6365" />
           <entry key="Markdown" value="6075" />
@@ -92,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice/077-dropdown/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="290">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -471,12 +471,12 @@
       <workItem from="1542530345367" duration="36000" />
       <workItem from="1542533176325" duration="615000" />
       <workItem from="1542610912741" duration="17000" />
-      <workItem from="1542610966343" duration="11838000" />
+      <workItem from="1542610966343" duration="12072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336877000" />
+    <option name="totallyTimeSpent" value="337111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1024" height="640" extended-state="6" />
@@ -852,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/077-dropdown/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="290">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
         </state>
       </provider>
     </entry>
