@@ -1,0 +1,33 @@
+<style>
+  div {
+    background: rgba(0, 0, 0, .1);
+    padding: 10px;
+  }
+</style>
+
+<div id="a">
+  a
+  <div id="b">
+    b
+    <div id="c">c</div>
+  </div>
+</div>
+
+<script>
+  a.addEventListener('click', (e) => {
+    console.log(a === e.currentTarget);
+
+    // console.log(e.currentTarget);
+    console.log('A');
+  });
+
+  b.addEventListener('click', (e) => {
+    console.log(e.currentTarget);
+    console.log('B');
+  });
+
+  c.addEventListener('click', (e) => {
+    console.log(e.currentTarget);
+    console.log('C');
+  });
+</script>
