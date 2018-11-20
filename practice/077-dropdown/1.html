@@ -1,0 +1,47 @@
+<style>
+  .dropdown {
+    padding: 10px;
+    display: inline-block;
+    background: #666;
+    color: #fff;
+  }
+
+  .dropdown a {
+    color: inherit;
+    display: block;
+    min-width: 100px;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+</style>
+
+<button class="trigger">更多</button>
+<br>
+<div class="dropdown" hidden>
+  <a href="#">A</a>
+  <a href="#">B</a>
+  <a href="#">C</a>
+  <a href="#">D</a>
+</div>
+
+<script>
+  const dropdown = document.querySelector('.dropdown');
+  const trigger = document.querySelector('.trigger');
+
+  document.body.addEventListener('click', (e) => {
+    let target = e.target;
+
+    if (target === trigger) {
+      dropdown.hidden = !dropdown.hidden;
+      return;
+    }
+
+    if (!target.closest('.dropdown'))
+      dropdown.hidden = true;
+  });
+</script>
