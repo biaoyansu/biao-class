@@ -1,0 +1,43 @@
+<style>
+  div {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border: 10px solid;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #a {
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+
+  #b {
+    overflow: auto;
+  }
+</style>
+
+<form style="border: 5px red solid; position: relative;">
+  <div id="a">
+    A
+  </div>
+</form>
+
+<div id="b">
+  B
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, delectus deleniti eius fugit inventore
+  ipsa itaque nemo neque nihil nobis nostrum officiis placeat reiciendis reprehenderit rerum sit, velit voluptatem
+  voluptatum!
+</div>
+
+<script>
+  console.log('a.offsetTop:', a.offsetTop);
+  console.log('a.offsetLeft:', a.offsetLeft);
+  console.log('a.getBoundingClientRect():', a.getBoundingClientRect());
+
+  console.log('b.scrollTop:', b.scrollTop);
+  console.log('b.scrollLeft:', b.scrollLeft);
+  console.log('b.offsetLeft:', b.offsetLeft);
+</script>
