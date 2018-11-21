@@ -1,0 +1,121 @@
+<style>
+  .biao-popup {
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+    padding: 10px;
+    border: 4px solid;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+  }
+
+  .biao-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 999;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+</style>
+
+<button id="trigger">收藏</button>
+<div id="popup">
+  确定要收藏吗？
+  <!--<img src="http://dummyimage.com/200x200">-->
+</div>
+
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere inventore maiores nam natus necessitatibus nihil
+  quasi quibusdam sit tempora, vel? Dolores eos est itaque, laborum numquam obcaecati vitae voluptate voluptatibus!
+</div>
+
+<script>
+  let trigger, popup, mask;
+
+  boot('#trigger', '#popup');
+
+  function boot(triggerSelector, popupSelector) {
+    trigger = document.querySelector(triggerSelector);
+    popup = document.querySelector(popupSelector);
+
+    initPopup();
+    initMask();
+    bindOpen();
+    bindClose();
+  }
+
+  function bindOpen() {
+    trigger.addEventListener('click', () => {
+      setVisibility(true);
+      repositionPopup('center', -50);
+    });
+  }
+
+  function bindClose() {
+    mask.addEventListener('click', () => {
+      setVisibility(false);
+    });
+
+    window.addEventListener('keyup', (e) => {
+      if (e.code === 'Escape')
+        setVisibility(false);
+    });
+  }
+
+  function setVisibility(show = false) {
+    mask.hidden = popup.hidden = !show;
+  }
+
+  function initPopup() {
+    popup.hidden = true;
+    popup.classList.add('biao-popup');
+  }
+
+  function repositionPopup(position = 'center', yOffset = 0, xOffset = 0) {
+    let windowWidth = window.innerWidth;
+    let windowHeight = window.innerHeight;
+    let width = popup.offsetWidth;
+    let height = popup.offsetHeight;
+
+    popup.style.left = windowWidth / 2 - width / 2 + xOffset;
+    popup.style.top = windowHeight / 2 - height / 2 + yOffset;
+  }
+
+  function initMask() {
+    mask = document.createElement('div');
+    mask.classList.add('biao-mask');
+    mask.hidden = true;
+    document.body.appendChild(mask);
+  }
+</script>
